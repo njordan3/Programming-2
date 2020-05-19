@@ -1,0 +1,31 @@
+log file "main1.log" opened
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff0001d4 value:10
+    Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+    param: int address:0xfff0001d4 value:20
+      Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+      param: int address:0xfff0001d4 value:40
+        Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+        param: int address:0xfff0001d4 value:50
+          Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+          param: int address:0xfff0001d4 value:60
+            Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+            param: int address:0xfff0001d4 value:70
+              Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+              param: int address:0xfff0001d4 value:80
+                Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+                param: int address:0xfff0001d4 value:90
+                  Start -- std::string SLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+                  End frame(9)--std::string SLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 68
+Return Value:SList: 
+head: 0x5a07870
+node: 0x5a07870 data: 90 next: 0x5a06db0
+node: 0x5a06db0 data: 80 next: 0x5a062f0
+node: 0x5a062f0 data: 70 next: 0x5a05830
+node: 0x5a05830 data: 60 next: 0x5a04d70
+node: 0x5a04d70 data: 50 next: 0x5a042b0
+node: 0x5a042b0 data: 40 next: 0x5a037f0
+node: 0x5a037f0 data: 20 next: 0x5a02d30
+node: 0x5a02d30 data: 10 next: 0
+
+

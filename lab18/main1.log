@@ -1,0 +1,73 @@
+log file "main1.log" opened
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:10
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:20
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:40
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:50
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:60
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:70
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:80
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:90
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000294 value:110
+  End frame(1)--bool SLinkedList<T>::Insert(T) [with T = int] at line 83
+Return Value:true
+
+  Start -- bool SLinkedList<T>::InsertAfter(T, T) [with T = int]
+  param: int address:0xfff000284 value:100
+  End frame(1)--bool SLinkedList<T>::InsertAfter(T, T) [with T = int] at line 71
+Return Value:true
+
+  Start -- bool SLinkedList<T>::InsertAfter(T, T) [with T = int]
+  param: int address:0xfff000284 value:5
+  End frame(1)--bool SLinkedList<T>::InsertAfter(T, T) [with T = int] at line 71
+Return Value:false
+
+  Start -- std::string SLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+  End frame(1)--std::string SLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 101
+Return Value:SList: 
+head: 0x5a0b2b0
+node: 0x5a0b2b0 data: 110 next: 0x5a0a200
+node: 0x5a0a200 data: 90 next: 0x5a0c3e0
+node: 0x5a0c3e0 data: 100 next: 0x5a09150
+node: 0x5a09150 data: 80 next: 0x5a080a0
+node: 0x5a080a0 data: 70 next: 0x5a06ff0
+node: 0x5a06ff0 data: 60 next: 0x5a05f40
+node: 0x5a05f40 data: 50 next: 0x5a04e90
+node: 0x5a04e90 data: 40 next: 0x5a03de0
+node: 0x5a03de0 data: 20 next: 0x5a02d30
+node: 0x5a02d30 data: 10 next: 0
+
+
+  Start -- SLinkedList<T>::~SLinkedList() [with T = int]

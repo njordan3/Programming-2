@@ -1,0 +1,61 @@
+log file "main1.log" opened
+  Start -- DLinkedList<T>::DLinkedList() [with T = int]
+  End --DLinkedList<T>::DLinkedList() [with T = int]
+
+
+  Start -- std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+  End frame(1)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 209
+Return Value:head: 0
+tail: 0
+
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = int]
+  param: int address:0xfff000184 value:4
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = int]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = int]
+    Start -- bool DLinkedList<T>::Empty() [with T = int]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = int] at line 163
+Return Value:true
+
+    Start -- std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+    End frame(2)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 209
+Return Value:head: 0x5a03e70
+tail: 0x5a03e70
+node: 0x5a03e70 data: 4 prev: 0 next: 0
+
+
+    Start -- bool DLinkedList<T>::Insert(T) [with T = int]
+    param: int address:0xfff000184 value:55
+      Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = int]
+      End --DLinkedList<T>::DListNode::DListNode(T) [with T = int]
+      Start -- bool DLinkedList<T>::Empty() [with T = int]
+      End frame(3)--bool DLinkedList<T>::Empty() [with T = int] at line 163
+Return Value:false
+
+      Start -- std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+      End frame(3)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 209
+Return Value:head: 0x5a063b0
+tail: 0x5a03e70
+node: 0x5a063b0 data: 55 prev: 0 next: 0x5a03e70
+node: 0x5a03e70 data: 4 prev: 0x5a063b0 next: 0
+
+
+      Start -- bool DLinkedList<T>::Insert(T) [with T = int]
+      param: int address:0xfff000184 value:5555
+        Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = int]
+        End --DLinkedList<T>::DListNode::DListNode(T) [with T = int]
+        Start -- bool DLinkedList<T>::Empty() [with T = int]
+        End frame(4)--bool DLinkedList<T>::Empty() [with T = int] at line 163
+Return Value:false
+
+        Start -- std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>]
+        End frame(4)--std::string DLinkedList<T>::ToString() [with T = int; std::string = std::basic_string<char>] at line 209
+Return Value:head: 0x5a08980
+tail: 0x5a03e70
+node: 0x5a08980 data: 5555 prev: 0 next: 0x5a063b0
+node: 0x5a063b0 data: 55 prev: 0x5a08980 next: 0x5a03e70
+node: 0x5a03e70 data: 4 prev: 0x5a063b0 next: 0
+
+
+        Start -- DLinkedList<T>::~DLinkedList() [with T = int]
+        End --DLinkedList<T>::~DLinkedList() [with T = int]
