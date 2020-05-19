@@ -1,0 +1,60 @@
+log file "example1.log" opened
+  Start -- Computer::Computer()
+  End --Computer::Computer()
+
+
+  Start -- std::string Computer::ToString()
+  End frame(1)--std::string Computer::ToString() at line 49
+Return Value:0 Ghz none 0 Cores
+0 Gb disk
+0 Gb ram
+
+
+  Start -- Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffeebd5bbd4 value:4
+  param: double address:0x7ffeebd5bbc8 value:1.6
+  param: int address:0x7ffeebd5bbd0 value:1000
+  param: int address:0x7ffeebd5bbc4 value:4
+  param: std::string address:0x7ffeebd5bdc0 value:Pentium N3700
+  End --Computer::Computer(int, double, int, int, std::string)
+  param: int address:0x7ffeebd5bbd4 value:4
+  param: double address:0x7ffeebd5bbc8 value:1.6
+  param: int address:0x7ffeebd5bbd0 value:1000
+  param: int address:0x7ffeebd5bbc4 value:4
+  param: std::string address:0x7ffeebd5bdc0 value:Pentium N3700
+
+
+  Start -- std::string Computer::ToString()
+  End frame(1)--std::string Computer::ToString() at line 49
+Return Value:1.6 Ghz Pentium N3700 4 Cores
+1000 Gb disk
+4 Gb ram
+
+
+  Start -- Computer::Computer(const Computer&)
+  param: Computer address:0x7ffeebd5bd70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+  End --Computer::Computer(const Computer&)
+  param: Computer address:0x7ffeebd5bd70 value:unknown type <Computer>, cant display value try converting it to a string or overoad ostream << 
+
+
+
+  Start -- std::string Computer::ToString()
+  End frame(1)--std::string Computer::ToString() at line 49
+Return Value:1.6 Ghz Pentium N3700 4 Cores
+1000 Gb disk
+4 Gb ram
+
+
+  Start -- Computer::~Computer()
+  End --Computer::~Computer()
+
+
+  Start -- Computer::~Computer()
+  End --Computer::~Computer()
+
+
+  Start -- Computer::~Computer()
+  End --Computer::~Computer()
+
+
