@@ -1,0 +1,61 @@
+log file "main2.log" opened
+  Start -- Stack::Stack(int)
+  param: int address:0x7ffed688d924 value:4
+  End --Stack::Stack(int)
+  param: int address:0x7ffed688d924 value:4
+
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7ffed688d9b4 value:0
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7ffed688d9b4 value:1
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7ffed688d9b4 value:2
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7ffed688d9b4 value:3
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7ffed688d9b4 value:4
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:true
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:false
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7ffed688d9b4 value:5
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:true
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:false
+

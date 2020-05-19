@@ -1,0 +1,13 @@
+  Queue Menu
+  ===============================================
+  i Enqueue a value into the queue 
+  t Display the value returned by Front 
+  d Dequeue a value from the queue 
+  p Display the output of ToString() 
+  e Display the output of Empty() 
+  f Display the output of Full() 
+  c Use copy constructor ( NOT = ) to make copy of your queue,    and Display the output of its ToString() 
+  m Show this menu 
+  x Exit 
+  ===============================================
+  Enter selection: 

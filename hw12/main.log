@@ -1,0 +1,5 @@
+log file "main.log" opened
+  Start -- BST<T>::BST() [with T = int]
+  End --BST<T>::BST() [with T = int]
+
+

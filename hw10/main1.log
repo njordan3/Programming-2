@@ -1,0 +1,89 @@
+log file "main1.log" opened
+  Start -- SLinkedList<T>::SLinkedList() [with T = CFraction]
+  End --SLinkedList<T>::SLinkedList() [with T = CFraction]
+
+
+  Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+    End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+    Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+    param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+      Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+      End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+      Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+      param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+        End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+        Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+        param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+          End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+          Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+          param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+            End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+            Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+            param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+              Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+              End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+              Start -- bool SLinkedList<T>::Delete(T) [with T = CFraction]
+              param: CFraction address:0x7ffd72e00fb0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+                Start -- bool SLinkedList<T>::Contains(T) [with T = CFraction]
+                End frame(8)--bool SLinkedList<T>::Contains(T) [with T = CFraction] at line 132
+Return Value:true
+
+              End frame(7)--bool SLinkedList<T>::Delete(T) [with T = CFraction] at line 115
+Return Value:false
+
+              Start -- bool SLinkedList<T>::Delete(T) [with T = CFraction]
+              param: CFraction address:0x7ffd72e00fb0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+                Start -- bool SLinkedList<T>::Contains(T) [with T = CFraction]
+                End frame(8)--bool SLinkedList<T>::Contains(T) [with T = CFraction] at line 132
+Return Value:true
+
+              End frame(7)--bool SLinkedList<T>::Delete(T) [with T = CFraction] at line 115
+Return Value:false
+
+              Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+              param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+                Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+                End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+                Start -- bool SLinkedList<T>::Insert(T) [with T = CFraction]
+                param: CFraction address:0x7ffd72e00f10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+                  Start -- SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+                  End --SLinkedList<T>::SListNode::SListNode(T) [with T = CFraction]
+                  Start -- bool SLinkedList<T>::Contains(T) [with T = CFraction]
+                  End frame(9)--bool SLinkedList<T>::Contains(T) [with T = CFraction] at line 132
+Return Value:true
+
+                  Start -- bool SLinkedList<T>::Contains(T) [with T = CFraction]
+                  End frame(9)--bool SLinkedList<T>::Contains(T) [with T = CFraction] at line 132
+Return Value:true
+
+                  Start -- std::string SLinkedList<T>::ToString() [with T = CFraction; std::string = std::basic_string<char>]
+                  End frame(9)--std::string SLinkedList<T>::ToString() [with T = CFraction; std::string = std::basic_string<char>] at line 188
+Return Value:SList: 
+head: 0x1d223f0
+node: 0x1d223f0 data: 2/7 next: 0x1d22310
+node: 0x1d22310 data: 1/7 next: 0x1d220b0
+node: 0x1d220b0 data: 1/8 next: 0x1d22090
+node: 0x1d22090 data: 1/4 next: 0x1d22070
+node: 0x1d22070 data: 1/2 next: 0x1d22050
+node: 0x1d22050 data: 10/1 next: 0x1d22030
+node: 0x1d22030 data: 5/1 next: 0x1d22010
+node: 0x1d22010 data: 1/1 next: 0
+
+
+                  Start -- SLinkedList<T>::~SLinkedList() [with T = CFraction]
+                  End --SLinkedList<T>::~SLinkedList() [with T = CFraction]

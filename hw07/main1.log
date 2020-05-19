@@ -1,0 +1,177 @@
+log file "main1.log" opened
+  Start -- Stack::Stack(int)
+  param: int address:0x7fff6e8c4124 value:4
+  End --Stack::Stack(int)
+  param: int address:0x7fff6e8c4124 value:4
+
+
+  Start -- bool Stack::isEmpty()
+  End frame(1)--bool Stack::isEmpty() at line 56
+Return Value:true
+
+  Start -- int Stack::Size()
+  End frame(1)--int Stack::Size() at line 68
+Return Value:0
+
+  Start -- bool Stack::isFull()
+  End frame(1)--bool Stack::isFull() at line 62
+Return Value:false
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7fff6e8c41b4 value:50
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- bool Stack::isFull()
+  End frame(1)--bool Stack::isFull() at line 62
+Return Value:false
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7fff6e8c41b4 value:40
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- bool Stack::isFull()
+  End frame(1)--bool Stack::isFull() at line 62
+Return Value:false
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7fff6e8c41b4 value:60
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- int Stack::Top()
+    Start -- bool Stack::isEmpty()
+    End frame(2)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 121
+Return Value:60
+
+  Start -- bool Stack::isEmpty()
+  End frame(1)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  Start -- bool Stack::Pop()
+    Start -- bool Stack::isEmpty()
+    End frame(2)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  End frame(1)--bool Stack::Pop() at line 106
+Return Value:true
+
+  Start -- int Stack::Top()
+    Start -- bool Stack::isEmpty()
+    End frame(2)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 121
+Return Value:40
+
+  Start -- bool Stack::isEmpty()
+  End frame(1)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  Start -- bool Stack::Pop()
+    Start -- bool Stack::isEmpty()
+    End frame(2)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  End frame(1)--bool Stack::Pop() at line 106
+Return Value:true
+
+  Start -- bool Stack::isEmpty()
+  End frame(1)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  Start -- int Stack::Size()
+  End frame(1)--int Stack::Size() at line 68
+Return Value:1
+
+  Start -- bool Stack::isFull()
+  End frame(1)--bool Stack::isFull() at line 62
+Return Value:false
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7fff6e8c41b4 value:70
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- bool Stack::isFull()
+  End frame(1)--bool Stack::isFull() at line 62
+Return Value:false
+
+  Start -- bool Stack::Push(int)
+  param: int address:0x7fff6e8c41b4 value:49
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+  End frame(1)--bool Stack::Push(int) at line 88
+Return Value:true
+
+  Start -- int Stack::Top()
+    Start -- bool Stack::isEmpty()
+    End frame(2)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  End frame(1)--int Stack::Top() at line 121
+Return Value:49
+
+  Start -- bool Stack::isEmpty()
+  End frame(1)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  Start -- int Stack::Size()
+  End frame(1)--int Stack::Size() at line 68
+Return Value:3
+
+  Start -- std::string Stack::ToString()
+    Start -- bool Stack::isFull()
+    End frame(2)--bool Stack::isFull() at line 62
+Return Value:false
+
+    Start -- bool Stack::isEmpty()
+    End frame(2)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+    Start -- int Stack::Size()
+    End frame(2)--int Stack::Size() at line 68
+Return Value:3
+
+    Start -- int Stack::Capacity()
+    End frame(2)--int Stack::Capacity() at line 74
+Return Value:4
+
+    Start -- bool Stack::isEmpty()
+    End frame(2)--bool Stack::isEmpty() at line 56
+Return Value:false
+
+  End frame(1)--std::string Stack::ToString() at line 142
+Return Value:ToString():
+TopIndex: 3
+Capacity(): 4
+Size(): 3
+Empty(): false
+Full(): false
+data[0]: address: 0x1be7010value: 50
+data[1]: address: 0x1be7014value: 70
+data[2]: address: 0x1be7018value: 49
+
+

@@ -1,0 +1,253 @@
+log file "main1.log" opened
+  Start -- Queue<T>::Queue() [with T = std::basic_string<char>]
+  End --Queue<T>::Queue() [with T = std::basic_string<char>]
+
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:fifty
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:forty
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:sixty
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:one
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:two
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:three
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:four
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:five
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:six
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:seven
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:true
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:false
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:eight
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:true
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:false
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:nine
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:true
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:false
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:ten
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:true
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:false
+
+  Start -- T Queue<T>::Front() [with T = std::basic_string<char>]
+    Start -- bool Queue<T>::Empty() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Empty() [with T = std::basic_string<char>] at line 38
+Return Value:false
+
+  End frame(1)--T Queue<T>::Front() [with T = std::basic_string<char>] at line 79
+Return Value:fifty
+
+  Start -- bool Queue<T>::deQueue() [with T = std::basic_string<char>]
+    Start -- bool Queue<T>::Empty() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Empty() [with T = std::basic_string<char>] at line 38
+Return Value:false
+
+  End frame(1)--bool Queue<T>::deQueue() [with T = std::basic_string<char>] at line 69
+Return Value:true
+
+  Start -- T Queue<T>::Front() [with T = std::basic_string<char>]
+    Start -- bool Queue<T>::Empty() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Empty() [with T = std::basic_string<char>] at line 38
+Return Value:false
+
+  End frame(1)--T Queue<T>::Front() [with T = std::basic_string<char>] at line 79
+Return Value:forty
+
+  Start -- bool Queue<T>::deQueue() [with T = std::basic_string<char>]
+    Start -- bool Queue<T>::Empty() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Empty() [with T = std::basic_string<char>] at line 38
+Return Value:false
+
+  End frame(1)--bool Queue<T>::deQueue() [with T = std::basic_string<char>] at line 69
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:seventy
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- bool Queue<T>::enQueue(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff1c7a2c70 value:fortynine
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:false
+
+  End frame(1)--bool Queue<T>::enQueue(T) [with T = std::basic_string<char>] at line 57
+Return Value:true
+
+  Start -- T Queue<T>::Front() [with T = std::basic_string<char>]
+    Start -- bool Queue<T>::Empty() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Empty() [with T = std::basic_string<char>] at line 38
+Return Value:false
+
+  End frame(1)--T Queue<T>::Front() [with T = std::basic_string<char>] at line 79
+Return Value:sixty
+
+  Start -- std::string Queue<T>::ToString() [with T = std::basic_string<char>; std::string = std::basic_string<char>]
+    Start -- bool Queue<T>::Full() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Full() [with T = std::basic_string<char>] at line 44
+Return Value:true
+
+    Start -- bool Queue<T>::Empty() [with T = std::basic_string<char>]
+    End frame(2)--bool Queue<T>::Empty() [with T = std::basic_string<char>] at line 38
+Return Value:false
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+    Start -- int Queue<T>::Size() [with T = std::basic_string<char>]
+    End frame(2)--int Queue<T>::Size() [with T = std::basic_string<char>] at line 94
+Return Value:9
+
+  End frame(1)--std::string Queue<T>::ToString() [with T = std::basic_string<char>; std::string = std::basic_string<char>] at line 116
+Return Value:ToString():
+Queue:
+FrontIndex: 2
+BackIndex: 1
+Size: 9
+Empty: false
+Full: true
+elements
+array[2]: sixty
+array[3]: one
+array[4]: two
+array[5]: three
+array[6]: four
+array[7]: five
+array[8]: six
+array[9]: seventy
+array[0]: fortynine
+
+
