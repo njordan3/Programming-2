@@ -1,0 +1,146 @@
+log file "main1.log" opened
+  Start -- DLinkedList<T>::DLinkedList() [with T = CFraction]
+  End --DLinkedList<T>::DLinkedList() [with T = CFraction]
+
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:true
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Delete(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f0a0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- bool DLinkedList<T>::Contains(T) [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Contains(T) [with T = CFraction] at line 207
+Return Value:true
+
+  End frame(1)--bool DLinkedList<T>::Delete(T) [with T = CFraction] at line 190
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Delete(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f0a0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- bool DLinkedList<T>::Contains(T) [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Contains(T) [with T = CFraction] at line 207
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Delete(T) [with T = CFraction] at line 190
+Return Value:false
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Insert(T) [with T = CFraction]
+  param: CFraction address:0x7ffe3fa4f000 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    End --DLinkedList<T>::DListNode::DListNode(T) [with T = CFraction]
+    Start -- bool DLinkedList<T>::Empty() [with T = CFraction]
+    End frame(2)--bool DLinkedList<T>::Empty() [with T = CFraction] at line 219
+Return Value:false
+
+  End frame(1)--bool DLinkedList<T>::Insert(T) [with T = CFraction] at line 84
+Return Value:true
+
+  Start -- bool DLinkedList<T>::Contains(T) [with T = CFraction]
+  End frame(1)--bool DLinkedList<T>::Contains(T) [with T = CFraction] at line 207
+Return Value:false
+
+  Start -- bool DLinkedList<T>::Contains(T) [with T = CFraction]
+  End frame(1)--bool DLinkedList<T>::Contains(T) [with T = CFraction] at line 207
+Return Value:true
+
+  Start -- std::string DLinkedList<T>::ToString() [with T = CFraction; std::string = std::basic_string<char>]
+  End frame(1)--std::string DLinkedList<T>::ToString() [with T = CFraction; std::string = std::basic_string<char>] at line 257
+Return Value:head: 0x116f3d0
+tail: 0x116f010
+node: 0x116f3d0 data: 2/7 prev: 0 next: 0x116f3b0
+node: 0x116f3b0 data: 1/7 prev: 0x116f3d0 next: 0x116f390
+node: 0x116f390 data: 1/4 prev: 0x116f3b0 next: 0x116f370
+node: 0x116f370 data: 1/2 prev: 0x116f390 next: 0x116f350
+node: 0x116f350 data: 10/1 prev: 0x116f370 next: 0x116f270
+node: 0x116f270 data: 5/1 prev: 0x116f350 next: 0x116f010
+node: 0x116f010 data: 1/1 prev: 0x116f270 next: 0
+
+
+  Start -- DLinkedList<T>::~DLinkedList() [with T = CFraction]
+  End --DLinkedList<T>::~DLinkedList() [with T = CFraction]
+
+

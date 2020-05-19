@@ -1,0 +1,9 @@
+30 out of 40
+
+your instert after causes seg fault if you try to insert after a non existant value
+
+you logging is not correct.. you dont pass in parameters to LogStart or skip it all together
+
+pretty close but you didnt test well enough
+
+
