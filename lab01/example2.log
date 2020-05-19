@@ -1,0 +1,4 @@
+log file "example2.log" opened
+int main() at line 30  :at start of main
+int main() at line 31  :Starting a loop of 10 iterations
+int main() at line 45  :at end of main

@@ -1,0 +1,1252 @@
+log file "main.log" opened
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:2
+  param: int address:0x7ffc5980f9c8 value:3
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 43
+Return Value:3
+
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:3
+  param: int address:0x7ffc5980f9c8 value:2
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 40
+Return Value:3
+
+  Start -- T GetLarger(T, T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:1
+  param: int address:0x7ffc5980f9c8 value:2
+  param: int address:0x7ffc5980f9c4 value:3
+    Start -- T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:1
+    param: int address:0x7ffc5980f8f8 value:2
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 43
+Return Value:2
+
+    Start -- T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:2
+    param: int address:0x7ffc5980f8f8 value:3
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 43
+Return Value:3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = int] at line 69
+Return Value:3
+
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:1
+  param: int address:0x7ffc5980f8f8 value:2
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 43
+Return Value:2
+
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:2
+  param: int address:0x7ffc5980f8f8 value:3
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 43
+Return Value:3
+
+  Start -- T GetLarger(T, T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:2
+  param: int address:0x7ffc5980f9c8 value:3
+  param: int address:0x7ffc5980f9c4 value:1
+    Start -- T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:2
+    param: int address:0x7ffc5980f8f8 value:3
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 43
+Return Value:3
+
+    Start -- T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:3
+    param: int address:0x7ffc5980f8f8 value:1
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 40
+Return Value:3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = int] at line 69
+Return Value:3
+
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:2
+  param: int address:0x7ffc5980f8f8 value:3
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 43
+Return Value:3
+
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:3
+  param: int address:0x7ffc5980f8f8 value:1
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 40
+Return Value:3
+
+  Start -- T GetLarger(T, T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:3
+  param: int address:0x7ffc5980f9c8 value:2
+  param: int address:0x7ffc5980f9c4 value:1
+    Start -- T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:3
+    param: int address:0x7ffc5980f8f8 value:2
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 40
+Return Value:3
+
+    Start -- T GetLarger(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:3
+    param: int address:0x7ffc5980f8f8 value:1
+    End frame(2)--T GetLarger(T, T) [with T = int] at line 40
+Return Value:3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = int] at line 69
+Return Value:3
+
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:3
+  param: int address:0x7ffc5980f8f8 value:2
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 40
+Return Value:3
+
+  Start -- T GetLarger(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:3
+  param: int address:0x7ffc5980f8f8 value:1
+  End frame(1)--T GetLarger(T, T) [with T = int] at line 40
+Return Value:3
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:2
+  param: int address:0x7ffc5980f9c8 value:3
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 57
+Return Value:2
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:3
+  param: int address:0x7ffc5980f9c8 value:2
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 54
+Return Value:2
+
+  Start -- T GetSmaller(T, T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:1
+  param: int address:0x7ffc5980f9c8 value:2
+  param: int address:0x7ffc5980f9c4 value:3
+    Start -- T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:1
+    param: int address:0x7ffc5980f8f8 value:2
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 57
+Return Value:1
+
+    Start -- T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:1
+    param: int address:0x7ffc5980f8f8 value:3
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 57
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = int] at line 82
+Return Value:1
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:1
+  param: int address:0x7ffc5980f8f8 value:2
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 57
+Return Value:1
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:1
+  param: int address:0x7ffc5980f8f8 value:3
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 57
+Return Value:1
+
+  Start -- T GetSmaller(T, T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:2
+  param: int address:0x7ffc5980f9c8 value:3
+  param: int address:0x7ffc5980f9c4 value:1
+    Start -- T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:2
+    param: int address:0x7ffc5980f8f8 value:3
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 57
+Return Value:2
+
+    Start -- T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:2
+    param: int address:0x7ffc5980f8f8 value:1
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 54
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = int] at line 82
+Return Value:1
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:2
+  param: int address:0x7ffc5980f8f8 value:3
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 57
+Return Value:2
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:2
+  param: int address:0x7ffc5980f8f8 value:1
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 54
+Return Value:1
+
+  Start -- T GetSmaller(T, T, T) [with T = int]
+  param: int address:0x7ffc5980f9cc value:3
+  param: int address:0x7ffc5980f9c8 value:2
+  param: int address:0x7ffc5980f9c4 value:1
+    Start -- T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:3
+    param: int address:0x7ffc5980f8f8 value:2
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 54
+Return Value:2
+
+    Start -- T GetSmaller(T, T) [with T = int]
+    param: int address:0x7ffc5980f8fc value:2
+    param: int address:0x7ffc5980f8f8 value:1
+    End frame(2)--T GetSmaller(T, T) [with T = int] at line 54
+Return Value:1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = int] at line 82
+Return Value:1
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:3
+  param: int address:0x7ffc5980f8f8 value:2
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 54
+Return Value:2
+
+  Start -- T GetSmaller(T, T) [with T = int]
+  param: int address:0x7ffc5980f8fc value:2
+  param: int address:0x7ffc5980f8f8 value:1
+  End frame(1)--T GetSmaller(T, T) [with T = int] at line 54
+Return Value:1
+
+  Start -- void SwapValues(T&, T&) [with T = int]
+  param: int address:0x7ffc5980fadc value:100
+  param: int address:0x7ffc5980fad8 value:200
+  End --void SwapValues(T&, T&) [with T = int]
+  param: int address:0x7ffc5980fadc value:200
+  param: int address:0x7ffc5980fad8 value:100
+
+
+  Start -- void SwapValues(T&, T&) [with T = int]
+  param: int address:0x7ffc5980fadc value:200
+  param: int address:0x7ffc5980fad8 value:100
+  End --void SwapValues(T&, T&) [with T = int]
+  param: int address:0x7ffc5980fadc value:100
+  param: int address:0x7ffc5980fad8 value:200
+
+
+int main() at line 40  :
+
+
+Testing with type double  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:2.2
+  param: double address:0x7ffc5980f9c0 value:3.3
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 43
+Return Value:3.3
+
+  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:3.3
+  param: double address:0x7ffc5980f9c0 value:2.2
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 40
+Return Value:3.3
+
+  Start -- T GetLarger(T, T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:1.1
+  param: double address:0x7ffc5980f9c0 value:2.2
+  param: double address:0x7ffc5980f9b8 value:3.3
+    Start -- T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:1.1
+    param: double address:0x7ffc5980f8e0 value:2.2
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 43
+Return Value:2.2
+
+    Start -- T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:2.2
+    param: double address:0x7ffc5980f8e0 value:3.3
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 43
+Return Value:3.3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = double] at line 69
+Return Value:3.3
+
+  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:1.1
+  param: double address:0x7ffc5980f8e0 value:2.2
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 43
+Return Value:2.2
+
+  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:2.2
+  param: double address:0x7ffc5980f8e0 value:3.3
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 43
+Return Value:3.3
+
+  Start -- T GetLarger(T, T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:2.2
+  param: double address:0x7ffc5980f9c0 value:3.3
+  param: double address:0x7ffc5980f9b8 value:1.1
+    Start -- T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:2.2
+    param: double address:0x7ffc5980f8e0 value:3.3
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 43
+Return Value:3.3
+
+    Start -- T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:3.3
+    param: double address:0x7ffc5980f8e0 value:1.1
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 40
+Return Value:3.3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = double] at line 69
+Return Value:3.3
+
+  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:2.2
+  param: double address:0x7ffc5980f8e0 value:3.3
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 43
+Return Value:3.3
+
+  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:3.3
+  param: double address:0x7ffc5980f8e0 value:1.1
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 40
+Return Value:3.3
+
+  Start -- T GetLarger(T, T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:3.3
+  param: double address:0x7ffc5980f9c0 value:2.2
+  param: double address:0x7ffc5980f9b8 value:1.1
+    Start -- T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:3.3
+    param: double address:0x7ffc5980f8e0 value:2.2
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 40
+Return Value:3.3
+
+    Start -- T GetLarger(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:3.3
+    param: double address:0x7ffc5980f8e0 value:1.1
+    End frame(2)--T GetLarger(T, T) [with T = double] at line 40
+Return Value:3.3
+
+  End frame(1)--T GetLarger(T, T, T) [with T = double] at line 69
+Return Value:3.3
+
+  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:3.3
+  param: double address:0x7ffc5980f8e0 value:2.2
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 40
+Return Value:3.3
+
+  Start -- T GetLarger(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:3.3
+  param: double address:0x7ffc5980f8e0 value:1.1
+  End frame(1)--T GetLarger(T, T) [with T = double] at line 40
+Return Value:3.3
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:2.2
+  param: double address:0x7ffc5980f9c0 value:3.3
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 57
+Return Value:2.2
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:3.3
+  param: double address:0x7ffc5980f9c0 value:2.2
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 54
+Return Value:2.2
+
+  Start -- T GetSmaller(T, T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:1.1
+  param: double address:0x7ffc5980f9c0 value:2.2
+  param: double address:0x7ffc5980f9b8 value:3.3
+    Start -- T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:1.1
+    param: double address:0x7ffc5980f8e0 value:2.2
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 57
+Return Value:1.1
+
+    Start -- T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:1.1
+    param: double address:0x7ffc5980f8e0 value:3.3
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 57
+Return Value:1.1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = double] at line 82
+Return Value:1.1
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:1.1
+  param: double address:0x7ffc5980f8e0 value:2.2
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 57
+Return Value:1.1
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:1.1
+  param: double address:0x7ffc5980f8e0 value:3.3
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 57
+Return Value:1.1
+
+  Start -- T GetSmaller(T, T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:2.2
+  param: double address:0x7ffc5980f9c0 value:3.3
+  param: double address:0x7ffc5980f9b8 value:1.1
+    Start -- T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:2.2
+    param: double address:0x7ffc5980f8e0 value:3.3
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 57
+Return Value:2.2
+
+    Start -- T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:2.2
+    param: double address:0x7ffc5980f8e0 value:1.1
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 54
+Return Value:1.1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = double] at line 82
+Return Value:1.1
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:2.2
+  param: double address:0x7ffc5980f8e0 value:3.3
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 57
+Return Value:2.2
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:2.2
+  param: double address:0x7ffc5980f8e0 value:1.1
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 54
+Return Value:1.1
+
+  Start -- T GetSmaller(T, T, T) [with T = double]
+  param: double address:0x7ffc5980f9c8 value:3.3
+  param: double address:0x7ffc5980f9c0 value:2.2
+  param: double address:0x7ffc5980f9b8 value:1.1
+    Start -- T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:3.3
+    param: double address:0x7ffc5980f8e0 value:2.2
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 54
+Return Value:2.2
+
+    Start -- T GetSmaller(T, T) [with T = double]
+    param: double address:0x7ffc5980f8e8 value:2.2
+    param: double address:0x7ffc5980f8e0 value:1.1
+    End frame(2)--T GetSmaller(T, T) [with T = double] at line 54
+Return Value:1.1
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = double] at line 82
+Return Value:1.1
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:3.3
+  param: double address:0x7ffc5980f8e0 value:2.2
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 54
+Return Value:2.2
+
+  Start -- T GetSmaller(T, T) [with T = double]
+  param: double address:0x7ffc5980f8e8 value:2.2
+  param: double address:0x7ffc5980f8e0 value:1.1
+  End frame(1)--T GetSmaller(T, T) [with T = double] at line 54
+Return Value:1.1
+
+  Start -- void SwapValues(T&, T&) [with T = double]
+  param: double address:0x7ffc5980fad0 value:10.1
+  param: double address:0x7ffc5980fac8 value:20.2
+  End --void SwapValues(T&, T&) [with T = double]
+  param: double address:0x7ffc5980fad0 value:20.2
+  param: double address:0x7ffc5980fac8 value:10.1
+
+
+  Start -- void SwapValues(T&, T&) [with T = double]
+  param: double address:0x7ffc5980fad0 value:20.2
+  param: double address:0x7ffc5980fac8 value:10.1
+  End --void SwapValues(T&, T&) [with T = double]
+  param: double address:0x7ffc5980fad0 value:10.1
+  param: double address:0x7ffc5980fac8 value:20.2
+
+
+int main() at line 71  :
+
+
+Testing with type char  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:a
+  param: char address:0x7ffc5980f9c8 value:b
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:a
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:b
+  param: char address:0x7ffc5980f9c8 value:c
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:b
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:c
+  param: char address:0x7ffc5980f9c8 value:a
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 54
+Return Value:a
+
+  Start -- T GetSmaller(T, T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:a
+  param: char address:0x7ffc5980f9c8 value:b
+  param: char address:0x7ffc5980f9c4 value:c
+    Start -- T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:a
+    param: char address:0x7ffc5980f8f8 value:b
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:a
+
+    Start -- T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:a
+    param: char address:0x7ffc5980f8f8 value:c
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:a
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = char] at line 82
+Return Value:a
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:a
+  param: char address:0x7ffc5980f8f8 value:b
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:a
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:a
+  param: char address:0x7ffc5980f8f8 value:c
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:a
+
+  Start -- T GetSmaller(T, T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:b
+  param: char address:0x7ffc5980f9c8 value:c
+  param: char address:0x7ffc5980f9c4 value:a
+    Start -- T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:b
+    param: char address:0x7ffc5980f8f8 value:c
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:b
+
+    Start -- T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:b
+    param: char address:0x7ffc5980f8f8 value:a
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 54
+Return Value:a
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = char] at line 82
+Return Value:a
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:b
+  param: char address:0x7ffc5980f8f8 value:c
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:b
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:b
+  param: char address:0x7ffc5980f8f8 value:a
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 54
+Return Value:a
+
+  Start -- T GetSmaller(T, T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:c
+  param: char address:0x7ffc5980f9c8 value:a
+  param: char address:0x7ffc5980f9c4 value:b
+    Start -- T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:c
+    param: char address:0x7ffc5980f8f8 value:a
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 54
+Return Value:a
+
+    Start -- T GetSmaller(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:a
+    param: char address:0x7ffc5980f8f8 value:b
+    End frame(2)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:a
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = char] at line 82
+Return Value:a
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:c
+  param: char address:0x7ffc5980f8f8 value:a
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 54
+Return Value:a
+
+  Start -- T GetSmaller(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:a
+  param: char address:0x7ffc5980f8f8 value:b
+  End frame(1)--T GetSmaller(T, T) [with T = char] at line 57
+Return Value:a
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:a
+  param: char address:0x7ffc5980f9c8 value:b
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:b
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:b
+  param: char address:0x7ffc5980f9c8 value:c
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:c
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:c
+  param: char address:0x7ffc5980f9c8 value:a
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 40
+Return Value:c
+
+  Start -- T GetLarger(T, T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:a
+  param: char address:0x7ffc5980f9c8 value:b
+  param: char address:0x7ffc5980f9c4 value:c
+    Start -- T GetLarger(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:a
+    param: char address:0x7ffc5980f8f8 value:b
+    End frame(2)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:b
+
+    Start -- T GetLarger(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:b
+    param: char address:0x7ffc5980f8f8 value:c
+    End frame(2)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:c
+
+  End frame(1)--T GetLarger(T, T, T) [with T = char] at line 69
+Return Value:c
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:a
+  param: char address:0x7ffc5980f8f8 value:b
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:b
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:b
+  param: char address:0x7ffc5980f8f8 value:c
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:c
+
+  Start -- T GetLarger(T, T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:b
+  param: char address:0x7ffc5980f9c8 value:c
+  param: char address:0x7ffc5980f9c4 value:a
+    Start -- T GetLarger(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:b
+    param: char address:0x7ffc5980f8f8 value:c
+    End frame(2)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:c
+
+    Start -- T GetLarger(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:c
+    param: char address:0x7ffc5980f8f8 value:a
+    End frame(2)--T GetLarger(T, T) [with T = char] at line 40
+Return Value:c
+
+  End frame(1)--T GetLarger(T, T, T) [with T = char] at line 69
+Return Value:c
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:b
+  param: char address:0x7ffc5980f8f8 value:c
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 43
+Return Value:c
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:c
+  param: char address:0x7ffc5980f8f8 value:a
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 40
+Return Value:c
+
+  Start -- T GetLarger(T, T, T) [with T = char]
+  param: char address:0x7ffc5980f9cc value:c
+  param: char address:0x7ffc5980f9c8 value:a
+  param: char address:0x7ffc5980f9c4 value:b
+    Start -- T GetLarger(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:c
+    param: char address:0x7ffc5980f8f8 value:a
+    End frame(2)--T GetLarger(T, T) [with T = char] at line 40
+Return Value:c
+
+    Start -- T GetLarger(T, T) [with T = char]
+    param: char address:0x7ffc5980f8fc value:c
+    param: char address:0x7ffc5980f8f8 value:b
+    End frame(2)--T GetLarger(T, T) [with T = char] at line 40
+Return Value:c
+
+  End frame(1)--T GetLarger(T, T, T) [with T = char] at line 69
+Return Value:c
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:c
+  param: char address:0x7ffc5980f8f8 value:a
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 40
+Return Value:c
+
+  Start -- T GetLarger(T, T) [with T = char]
+  param: char address:0x7ffc5980f8fc value:c
+  param: char address:0x7ffc5980f8f8 value:b
+  End frame(1)--T GetLarger(T, T) [with T = char] at line 40
+Return Value:c
+
+  Start -- void SwapValues(T&, T&) [with T = char]
+  param: char address:0x7ffc5980fac7 value:L
+  param: char address:0x7ffc5980fac6 value:M
+  End --void SwapValues(T&, T&) [with T = char]
+  param: char address:0x7ffc5980fac7 value:M
+  param: char address:0x7ffc5980fac6 value:L
+
+
+  Start -- void SwapValues(T&, T&) [with T = char]
+  param: char address:0x7ffc5980fac7 value:M
+  param: char address:0x7ffc5980fac6 value:L
+  End --void SwapValues(T&, T&) [with T = char]
+  param: char address:0x7ffc5980fac7 value:L
+  param: char address:0x7ffc5980fac6 value:M
+
+
+int main() at line 102  :
+
+
+Testing with type char *  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 30
+Return Value:¾
+
+  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x4124be points_to_value:m
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 27
+Return Value:¾
+
+  Start -- T GetSmaller(T, T, T) [with T = const char*]
+  param: char pointer*  address:0x412519 points_to_value:c
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+    Start -- const char* GetSmaller(const char*, const char*)
+    param: char pointer*  address:0x412519 points_to_value:c
+    param: char pointer*  address:0x4124be points_to_value:m
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 30
+Return Value:
+
+    Start -- const char* GetSmaller(const char*, const char*)
+    param: char pointer*  address:0x412519 points_to_value:c
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 30
+Return Value:
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = const char*] at line 82
+Return Value:
+
+  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x412519 points_to_value:c
+  param: char pointer*  address:0x4124be points_to_value:m
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 30
+Return Value:
+
+  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x412519 points_to_value:c
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 30
+Return Value:
+
+  Start -- T GetSmaller(T, T, T) [with T = const char*]
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x412519 points_to_value:c
+    Start -- const char* GetSmaller(const char*, const char*)
+    param: char pointer*  address:0x4124be points_to_value:m
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 30
+Return Value:¾
+
+    Start -- const char* GetSmaller(const char*, const char*)
+    param: char pointer*  address:0x4124be points_to_value:m
+    param: char pointer*  address:0x412519 points_to_value:c
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 27
+Return Value:
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = const char*] at line 82
+Return Value:
+
+  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 30
+Return Value:¾
+
+  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x412519 points_to_value:c
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 27
+Return Value:
+
+  Start -- T GetSmaller(T, T, T) [with T = const char*]
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x412519 points_to_value:c
+    Start -- const char* GetSmaller(const char*, const char*)
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    param: char pointer*  address:0x4124be points_to_value:m
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 27
+Return Value:¾
+
+    Start -- const char* GetSmaller(const char*, const char*)
+    param: char pointer*  address:0x4124be points_to_value:m
+    param: char pointer*  address:0x412519 points_to_value:c
+    End frame(2)--const char* GetSmaller(const char*, const char*) at line 27
+Return Value:
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = const char*] at line 82
+Return Value:
+
+  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x4124be points_to_value:m
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 27
+Return Value:¾
+
+  Start -- const char* GetSmaller(const char*, const char*)
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x412519 points_to_value:c
+  End frame(1)--const char* GetSmaller(const char*, const char*) at line 27
+Return Value:
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 15
+Return Value:¸
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x4124be points_to_value:m
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 18
+Return Value:¸
+
+  Start -- T GetLarger(T, T, T) [with T = const char*]
+  param: char pointer*  address:0x412519 points_to_value:c
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+    Start -- const char* GetLarger(const char*, const char*)
+    param: char pointer*  address:0x412519 points_to_value:c
+    param: char pointer*  address:0x4124be points_to_value:m
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 15
+Return Value:¾
+
+    Start -- const char* GetLarger(const char*, const char*)
+    param: char pointer*  address:0x4124be points_to_value:m
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 15
+Return Value:¸
+
+  End frame(1)--T GetLarger(T, T, T) [with T = const char*] at line 69
+Return Value:¸
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x412519 points_to_value:c
+  param: char pointer*  address:0x4124be points_to_value:m
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 15
+Return Value:¾
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 15
+Return Value:¸
+
+  Start -- T GetLarger(T, T, T) [with T = const char*]
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x412519 points_to_value:c
+    Start -- const char* GetLarger(const char*, const char*)
+    param: char pointer*  address:0x4124be points_to_value:m
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 15
+Return Value:¸
+
+    Start -- const char* GetLarger(const char*, const char*)
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    param: char pointer*  address:0x412519 points_to_value:c
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 18
+Return Value:¸
+
+  End frame(1)--T GetLarger(T, T, T) [with T = const char*] at line 69
+Return Value:¸
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 15
+Return Value:¸
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x412519 points_to_value:c
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 18
+Return Value:¸
+
+  Start -- T GetLarger(T, T, T) [with T = const char*]
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x4124be points_to_value:m
+  param: char pointer*  address:0x412519 points_to_value:c
+    Start -- const char* GetLarger(const char*, const char*)
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    param: char pointer*  address:0x4124be points_to_value:m
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 18
+Return Value:¸
+
+    Start -- const char* GetLarger(const char*, const char*)
+    param: char pointer*  address:0x4124b8 points_to_value:z
+    param: char pointer*  address:0x412519 points_to_value:c
+    End frame(2)--const char* GetLarger(const char*, const char*) at line 18
+Return Value:¸
+
+  End frame(1)--T GetLarger(T, T, T) [with T = const char*] at line 69
+Return Value:¸
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x4124be points_to_value:m
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 18
+Return Value:¸
+
+  Start -- const char* GetLarger(const char*, const char*)
+  param: char pointer*  address:0x4124b8 points_to_value:z
+  param: char pointer*  address:0x412519 points_to_value:c
+  End frame(1)--const char* GetLarger(const char*, const char*) at line 18
+Return Value:¸
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fb00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980faf0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fb30 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fb20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 54
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fb70 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fb60 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fb50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- T GetSmaller(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980fa10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+    Start -- T GetSmaller(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980f9f0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = CFraction] at line 82
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa60 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa40 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa30 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fbb0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fba0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fb90 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- T GetSmaller(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980fa10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+    Start -- T GetSmaller(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980f9f0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetSmaller(T, T) [with T = CFraction] at line 54
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = CFraction] at line 82
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa60 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa40 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa30 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 54
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fbf0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fbe0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fbd0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- T GetSmaller(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980fa10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetSmaller(T, T) [with T = CFraction] at line 54
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+    Start -- T GetSmaller(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980f9f0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--T GetSmaller(T, T, T) [with T = CFraction] at line 82
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa60 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 54
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetSmaller(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa40 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa30 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetSmaller(T, T) [with T = CFraction] at line 57
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fc20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fc10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 40
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fc50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fc40 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 43
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fc90 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fc80 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fc70 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- T GetLarger(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980fa10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetLarger(T, T) [with T = CFraction] at line 43
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+    Start -- T GetLarger(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980f9f0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetLarger(T, T) [with T = CFraction] at line 43
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--T GetLarger(T, T, T) [with T = CFraction] at line 69
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa60 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 43
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa40 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa30 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 43
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fcd0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fcc0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fcb0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- T GetLarger(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980fa10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetLarger(T, T) [with T = CFraction] at line 43
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+    Start -- T GetLarger(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980f9f0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetLarger(T, T) [with T = CFraction] at line 40
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--T GetLarger(T, T, T) [with T = CFraction] at line 69
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa60 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 43
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa40 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa30 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 40
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fd10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fd00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fcf0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    Start -- T GetLarger(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa20 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980fa10 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetLarger(T, T) [with T = CFraction] at line 40
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+    Start -- T GetLarger(T, T) [with T = CFraction]
+    param: CFraction address:0x7ffc5980fa00 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    param: CFraction address:0x7ffc5980f9f0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+    End frame(2)--T GetLarger(T, T) [with T = CFraction] at line 40
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--T GetLarger(T, T, T) [with T = CFraction] at line 69
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa60 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa50 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 40
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- T GetLarger(T, T) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fa40 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980fa30 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--T GetLarger(T, T) [with T = CFraction] at line 40
+Return Value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+  Start -- void SwapValues(T&, T&) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fab0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980faa0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End --void SwapValues(T&, T&) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fab0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980faa0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+
+  Start -- void SwapValues(T&, T&) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fab0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980faa0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  End --void SwapValues(T&, T&) [with T = CFraction]
+  param: CFraction address:0x7ffc5980fab0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+  param: CFraction address:0x7ffc5980faa0 value:unknown type <CFraction>, cant display value try converting it to a string or overoad ostream << 
+
+
+

@@ -1,0 +1,184 @@
+log file "example4.log" opened
+int main() at line 34  :at start of main
+int main() at line 35  :Starting a loop of 10 iterations
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:0
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:0
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:0
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:0
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+int main() at line 47  :Inside the Loop with a value of 0 
+int main() at line 48  :0 is Even
+int main() at line 49  :0 is Even
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:1
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:3
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:1
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:3
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+int main() at line 47  :Inside the Loop with a value of 1 
+int main() at line 48  :1 is Odd
+int main() at line 49  :3 is Odd
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:2
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:6
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:2
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:6
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+int main() at line 47  :Inside the Loop with a value of 2 
+int main() at line 48  :2 is Even
+int main() at line 49  :6 is Even
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:3
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:9
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:3
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:9
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+int main() at line 47  :Inside the Loop with a value of 3 
+int main() at line 48  :3 is Odd
+int main() at line 49  :9 is Odd
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:4
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:12
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:4
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:12
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+int main() at line 47  :Inside the Loop with a value of 4 
+int main() at line 48  :4 is Even
+int main() at line 49  :12 is Even
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:5
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:15
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:5
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:15
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+int main() at line 47  :Inside the Loop with a value of 5 
+int main() at line 48  :5 is Odd
+int main() at line 49  :15 is Odd
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:6
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:18
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:6
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:18
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+int main() at line 47  :Inside the Loop with a value of 6 
+int main() at line 48  :6 is Even
+int main() at line 49  :18 is Even
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:7
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:21
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:7
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:21
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+int main() at line 47  :Inside the Loop with a value of 7 
+int main() at line 48  :7 is Odd
+int main() at line 49  :21 is Odd
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:8
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:24
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:8
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:24
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Even
+
+int main() at line 47  :Inside the Loop with a value of 8 
+int main() at line 48  :8 is Even
+int main() at line 49  :24 is Even
+  Start -- int TimesThree(int)
+  param: int address:0x7ffc393e466c value:9
+  End frame(1)--int TimesThree(int) at line 11
+Return Value:27
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:9
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+  Start -- std::string OddOrEven(int)
+  param: int address:0x7ffc393e4674 value:27
+  End frame(1)--std::string OddOrEven(int) at line 24
+Return Value:Odd
+
+int main() at line 47  :Inside the Loop with a value of 9 
+int main() at line 48  :9 is Odd
+int main() at line 49  :27 is Odd
+int main() at line 52  :at end of main

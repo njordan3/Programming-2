@@ -1,0 +1,113 @@
+log file "main1.log" opened
+  Start -- void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:1
+  End --void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:3
+
+
+  Start -- void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:3
+  End --void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:9
+
+
+  Start -- void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:9
+  End --void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:27
+
+
+  Start -- void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:27
+  End --void TripleInt(int&)
+  param: int address:0x7ffdb9f50eac value:81
+
+
+  Start -- void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:42
+  param: int address:0x7ffdb9f50d38 value:54
+  End --void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:42
+
+
+  Start -- void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:1000
+  param: int address:0x7ffdb9f50d38 value:999
+  End --void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:999
+
+
+  Start -- void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:198273
+  param: int address:0x7ffdb9f50d38 value:1
+  End --void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:1
+
+
+  Start -- void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:47123
+  param: int address:0x7ffdb9f50d38 value:47122
+  End --void SmallerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:47122
+
+
+  Start -- void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:1
+  param: int address:0x7ffdb9f50d38 value:10
+  End --void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:10
+
+
+  Start -- void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:2342
+  param: int address:0x7ffdb9f50d38 value:675
+  End --void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:2342
+
+
+  Start -- void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:654
+  param: int address:0x7ffdb9f50d38 value:27
+  End --void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:654
+
+
+  Start -- void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50d3c value:22
+  param: int address:0x7ffdb9f50d38 value:21
+  End --void LargerInt(int, int, int&)
+  param: int address:0x7ffdb9f50ea8 value:22
+
+
+  Start -- void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:14
+  param: int address:0x7ffdb9f50ea0 value:41
+  End --void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:41
+  param: int address:0x7ffdb9f50ea0 value:14
+
+
+  Start -- void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:4145
+  param: int address:0x7ffdb9f50ea0 value:1
+  End --void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:1
+  param: int address:0x7ffdb9f50ea0 value:4145
+
+
+  Start -- void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:1341231
+  param: int address:0x7ffdb9f50ea0 value:523
+  End --void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:523
+  param: int address:0x7ffdb9f50ea0 value:1341231
+
+
+  Start -- void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:1234
+  param: int address:0x7ffdb9f50ea0 value:13
+  End --void SwapInt(int&, int&)
+  param: int address:0x7ffdb9f50ea4 value:13
+  param: int address:0x7ffdb9f50ea0 value:1234
+
+

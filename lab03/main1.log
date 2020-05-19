@@ -1,0 +1,296 @@
+log file "main1.log" opened
+  Start -- int TripleInt_PBV(int)
+  param: int address:0x7ffedaca46ec value:3
+  End frame(1)--int TripleInt_PBV(int) at line 7
+Return Value:9
+
+  Start -- int TripleInt_PBV(int)
+  param: int address:0x7ffedaca46ec value:5
+  End frame(1)--int TripleInt_PBV(int) at line 7
+Return Value:15
+
+  Start -- int TripleInt_PBV(int)
+  param: int address:0x7ffedaca46ec value:8
+  End frame(1)--int TripleInt_PBV(int) at line 7
+Return Value:24
+
+  Start -- int TripleInt_PBV(int)
+  param: int address:0x7ffedaca46ec value:9
+  End frame(1)--int TripleInt_PBV(int) at line 7
+Return Value:27
+
+  Start -- int TripleInt_PBV(int)
+  param: int address:0x7ffedaca46ec value:1
+  End frame(1)--int TripleInt_PBV(int) at line 7
+Return Value:3
+
+  Start -- void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:1
+  End --void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:3
+
+
+  Start -- void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:3
+  End --void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:9
+
+
+  Start -- void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:9
+  End --void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:27
+
+
+  Start -- void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:27
+  End --void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:81
+
+
+  Start -- void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:81
+  End --void TripleInt_PBR(int&)
+  param: int address:0x7ffedaca47dc value:243
+
+
+  Start -- void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:243
+  End --void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:729
+
+
+  Start -- void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:729
+  End --void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:2187
+
+
+  Start -- void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:2187
+  End --void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:6561
+
+
+  Start -- void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:6561
+  End --void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:19683
+
+
+  Start -- void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:19683
+  End --void TripleInt_PBP(int*)
+  param: int address:0x7ffedaca47dc value:59049
+
+
+  Start -- void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47d8 value:44
+  param: int address:0x7ffedaca47d4 value:65
+  End --void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47d8 value:65
+  param: int address:0x7ffedaca47d4 value:44
+
+
+  Start -- void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47d0 value:31
+  param: int address:0x7ffedaca47cc value:75
+  End --void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47d0 value:75
+  param: int address:0x7ffedaca47cc value:31
+
+
+  Start -- void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47c8 value:5
+  param: int address:0x7ffedaca47c4 value:76
+  End --void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47c8 value:76
+  param: int address:0x7ffedaca47c4 value:5
+
+
+  Start -- void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47c0 value:12
+  param: int address:0x7ffedaca47bc value:51
+  End --void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47c0 value:51
+  param: int address:0x7ffedaca47bc value:12
+
+
+  Start -- void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47b8 value:8
+  param: int address:0x7ffedaca47b4 value:90
+  End --void SwapInts_PBR(int&, int&)
+  param: int address:0x7ffedaca47b8 value:90
+  param: int address:0x7ffedaca47b4 value:8
+
+
+  Start -- void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47d0 value:75
+  param: int address:0x7ffedaca47cc value:31
+  End --void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47d0 value:31
+  param: int address:0x7ffedaca47cc value:75
+
+
+  Start -- void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47d8 value:65
+  param: int address:0x7ffedaca47d4 value:44
+  End --void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47d8 value:44
+  param: int address:0x7ffedaca47d4 value:65
+
+
+  Start -- void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47c8 value:76
+  param: int address:0x7ffedaca47c4 value:5
+  End --void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47c8 value:5
+  param: int address:0x7ffedaca47c4 value:76
+
+
+  Start -- void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47c0 value:51
+  param: int address:0x7ffedaca47bc value:12
+  End --void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47c0 value:12
+  param: int address:0x7ffedaca47bc value:51
+
+
+  Start -- void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47b8 value:90
+  param: int address:0x7ffedaca47b4 value:8
+  End --void SwapInts_PBP(int*, int*)
+  param: int address:0x7ffedaca47b8 value:8
+  param: int address:0x7ffedaca47b4 value:90
+
+
+  Start -- int IsLarger_PBV(int, int)
+  param: int address:0x7ffedaca46dc value:41
+  param: int address:0x7ffedaca46d8 value:92
+  End frame(1)--int IsLarger_PBV(int, int) at line 45
+Return Value:92
+
+  Start -- int IsLarger_PBV(int, int)
+  param: int address:0x7ffedaca46dc value:63
+  param: int address:0x7ffedaca46d8 value:24
+  End frame(1)--int IsLarger_PBV(int, int) at line 45
+Return Value:63
+
+  Start -- int IsLarger_PBV(int, int)
+  param: int address:0x7ffedaca46dc value:1
+  param: int address:0x7ffedaca46d8 value:8
+  End frame(1)--int IsLarger_PBV(int, int) at line 45
+Return Value:8
+
+  Start -- int IsLarger_PBV(int, int)
+  param: int address:0x7ffedaca46dc value:6
+  param: int address:0x7ffedaca46d8 value:16
+  End frame(1)--int IsLarger_PBV(int, int) at line 45
+Return Value:16
+
+  Start -- int IsLarger_PBV(int, int)
+  param: int address:0x7ffedaca46dc value:75
+  param: int address:0x7ffedaca46d8 value:67
+  End frame(1)--int IsLarger_PBV(int, int) at line 45
+Return Value:75
+
+  Start -- void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:63
+  param: int address:0x7ffedaca4648 value:24
+  param: int address:0x7ffedaca47b0 value:-624277280
+  End --void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:63
+  param: int address:0x7ffedaca4648 value:24
+  param: int address:0x7ffedaca47b0 value:63
+
+
+  Start -- void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:41
+  param: int address:0x7ffedaca4648 value:92
+  param: int address:0x7ffedaca47b0 value:63
+  End --void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:41
+  param: int address:0x7ffedaca4648 value:92
+  param: int address:0x7ffedaca47b0 value:92
+
+
+  Start -- void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:1
+  param: int address:0x7ffedaca4648 value:8
+  param: int address:0x7ffedaca47b0 value:92
+  End --void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:1
+  param: int address:0x7ffedaca4648 value:8
+  param: int address:0x7ffedaca47b0 value:8
+
+
+  Start -- void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:6
+  param: int address:0x7ffedaca4648 value:16
+  param: int address:0x7ffedaca47b0 value:8
+  End --void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:6
+  param: int address:0x7ffedaca4648 value:16
+  param: int address:0x7ffedaca47b0 value:16
+
+
+  Start -- void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:75
+  param: int address:0x7ffedaca4648 value:67
+  param: int address:0x7ffedaca47b0 value:16
+  End --void IsLarger_PBR(int, int, int&)
+  param: int address:0x7ffedaca464c value:75
+  param: int address:0x7ffedaca4648 value:67
+  param: int address:0x7ffedaca47b0 value:75
+
+
+  Start -- void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:1
+  param: int address:0x7ffedaca4648 value:8
+  param: int address:0x7ffedaca47b0 value:75
+  End --void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:1
+  param: int address:0x7ffedaca4648 value:8
+  param: int address:0x7ffedaca47b0 value:8
+
+
+  Start -- void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:63
+  param: int address:0x7ffedaca4648 value:24
+  param: int address:0x7ffedaca47b0 value:8
+  End --void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:63
+  param: int address:0x7ffedaca4648 value:24
+  param: int address:0x7ffedaca47b0 value:63
+
+
+  Start -- void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:41
+  param: int address:0x7ffedaca4648 value:92
+  param: int address:0x7ffedaca47b0 value:63
+  End --void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:41
+  param: int address:0x7ffedaca4648 value:92
+  param: int address:0x7ffedaca47b0 value:92
+
+
+  Start -- void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:6
+  param: int address:0x7ffedaca4648 value:16
+  param: int address:0x7ffedaca47b0 value:92
+  End --void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:6
+  param: int address:0x7ffedaca4648 value:16
+  param: int address:0x7ffedaca47b0 value:16
+
+
+  Start -- void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:75
+  param: int address:0x7ffedaca4648 value:67
+  param: int address:0x7ffedaca47b0 value:16
+  End --void IsLarger_PBP(int, int, int*)
+  param: int address:0x7ffedaca464c value:75
+  param: int address:0x7ffedaca4648 value:67
+  param: int address:0x7ffedaca47b0 value:75
+
+
