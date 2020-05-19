@@ -1,0 +1,203 @@
+log file "main1.log" opened
+int main() at line 17  :testing the Square class 
+  Start -- Square::Square()
+  End --Square::Square()
+
+
+  Start -- std::string Square::ToString()
+    Start -- double Square::Area()
+    End frame(2)--double Square::Area() at line 42
+Return Value:0
+
+  End frame(1)--std::string Square::ToString() at line 50
+Return Value:Square: length = 0 area = 0
+
+
+  Start -- void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:-3
+  End --void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:0
+
+
+  Start -- std::string Square::ToString()
+    Start -- double Square::Area()
+    End frame(2)--double Square::Area() at line 42
+Return Value:0
+
+  End frame(1)--std::string Square::ToString() at line 50
+Return Value:Square: length = 0 area = 0
+
+
+  Start -- void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:3.5
+  End --void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:3.5
+
+
+  Start -- std::string Square::ToString()
+    Start -- double Square::Area()
+    End frame(2)--double Square::Area() at line 42
+Return Value:12.25
+
+  End frame(1)--std::string Square::ToString() at line 50
+Return Value:Square: length = 3.5 area = 12.25
+
+
+  Start -- Square::Square(double)
+  param: double address:0x7ffd98412da0 value:44
+  End --Square::Square(double)
+  param: double address:0x7ffd98412da0 value:44
+
+
+  Start -- std::string Square::ToString()
+    Start -- double Square::Area()
+    End frame(2)--double Square::Area() at line 42
+Return Value:1936
+
+  End frame(1)--std::string Square::ToString() at line 50
+Return Value:Square: length = 44 area = 1936
+
+
+  Start -- Square::Square()
+  End --Square::Square()
+
+
+  Start -- Triangle::Triangle()
+    Start -- void Triangle::SetHeight(double)
+    param: double address:0x7ffd98412c30 value:0
+    End --void Triangle::SetHeight(double)
+    param: double address:0x7ffd98412c30 value:0
+  End --Triangle::Triangle()
+
+
+  Start -- std::string Triangle::ToString()
+    Start -- double Triangle::Area()
+    End frame(2)--double Triangle::Area() at line 41
+Return Value:0
+
+  End frame(1)--std::string Triangle::ToString() at line 52
+Return Value:Triangle: length = 0 height = 0 area = 0
+
+
+  Start -- void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:-3
+  End --void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:0
+
+
+  Start -- std::string Triangle::ToString()
+    Start -- double Triangle::Area()
+    End frame(2)--double Triangle::Area() at line 41
+Return Value:0
+
+  End frame(1)--std::string Triangle::ToString() at line 52
+Return Value:Triangle: length = 0 height = 0 area = 0
+
+
+  Start -- void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:3.5
+  End --void Square::SetLength(double)
+  param: double address:0x7ffd98412da0 value:3.5
+
+
+  Start -- std::string Triangle::ToString()
+    Start -- double Triangle::Area()
+    End frame(2)--double Triangle::Area() at line 41
+Return Value:0
+
+  End frame(1)--std::string Triangle::ToString() at line 52
+Return Value:Triangle: length = 3.5 height = 0 area = 0
+
+
+  Start -- void Triangle::SetHeight(double)
+  param: double address:0x7ffd98412da0 value:-9
+  End --void Triangle::SetHeight(double)
+  param: double address:0x7ffd98412da0 value:0
+
+
+  Start -- std::string Triangle::ToString()
+    Start -- double Triangle::Area()
+    End frame(2)--double Triangle::Area() at line 41
+Return Value:0
+
+  End frame(1)--std::string Triangle::ToString() at line 52
+Return Value:Triangle: length = 3.5 height = 0 area = 0
+
+
+  Start -- void Triangle::SetHeight(double)
+  param: double address:0x7ffd98412da0 value:9.5
+  End --void Triangle::SetHeight(double)
+  param: double address:0x7ffd98412da0 value:9.5
+
+
+  Start -- std::string Triangle::ToString()
+    Start -- double Triangle::Area()
+    End frame(2)--double Triangle::Area() at line 41
+Return Value:16.625
+
+  End frame(1)--std::string Triangle::ToString() at line 52
+Return Value:Triangle: length = 3.5 height = 9.5 area = 16.625
+
+
+  Start -- Square::Square()
+  End --Square::Square()
+
+
+  Start -- Triangle::Triangle(double, double)
+  param: double address:0x7ffd98412da0 value:3
+  param: double address:0x7ffd98412d98 value:9
+    Start -- void Triangle::SetHeight(double)
+    param: double address:0x7ffd98412c20 value:9
+    End --void Triangle::SetHeight(double)
+    param: double address:0x7ffd98412c20 value:9
+    Start -- void Square::SetLength(double)
+    param: double address:0x7ffd98412c20 value:3
+    End --void Square::SetLength(double)
+    param: double address:0x7ffd98412c20 value:3
+  End --Triangle::Triangle(double, double)
+  param: double address:0x7ffd98412da0 value:3
+  param: double address:0x7ffd98412d98 value:9
+
+
+  Start -- std::string Triangle::ToString()
+    Start -- double Triangle::Area()
+    End frame(2)--double Triangle::Area() at line 41
+Return Value:13.5
+
+  End frame(1)--std::string Triangle::ToString() at line 52
+Return Value:Triangle: length = 3 height = 9 area = 13.5
+
+
+  Start -- Triangle::~Triangle()
+  End --Triangle::~Triangle()
+
+
+  Start -- Square::~Square()
+  End --Square::~Square()
+
+
+  Start -- Triangle::~Triangle()
+  End --Triangle::~Triangle()
+
+
+  Start -- Square::~Square()
+  End --Square::~Square()
+
+
+  Start -- Square::~Square()
+  End --Square::~Square()
+
+
+  Start -- Square::~Square()
+  End --Square::~Square()
+
+
+int main() at line 61  :finished testing the Square class 
+
+
+
+int main() at line 63  :testing the Triangle class 
+int main() at line 71  :finished testing the Triangle class 
+
+
+

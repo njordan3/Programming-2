@@ -1,0 +1,52 @@
+log file "main.log" opened
+  Start -- void Templated_Class<T>::setData(T) [with T = int]
+  param: int address:0x7fff8e5d0034 value:99
+  End --void Templated_Class<T>::setData(T) [with T = int]
+  param: int address:0x7fff8e5d0034 value:99
+
+
+  Start -- T Templated_Class<T>::getData() [with T = int]
+  End frame(1)--T Templated_Class<T>::getData() [with T = int] at line 12
+Return Value:99
+
+  Start -- std::ostream& operator<<(std::ostream&, Templated_Class<int>&)
+  param: std::ostream address:0x60e680 value:cant display value of std::ostream
+  param: Templated_Class<int> address:0x7fff8e5d01d0 value:unknown type <Templated_Class<int>>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::ostream& operator<<(std::ostream&, Templated_Class<int>&) at line 27
+Return Value:cant display value of std::ostream
+
+  Start -- void Templated_Class<T>::setData(T) [with T = double]
+  param: double address:0x7fff8e5d0030 value:99.99
+  End --void Templated_Class<T>::setData(T) [with T = double]
+  param: double address:0x7fff8e5d0030 value:99.99
+
+
+  Start -- T Templated_Class<T>::getData() [with T = double]
+  End frame(1)--T Templated_Class<T>::getData() [with T = double] at line 12
+Return Value:99.99
+
+  Start -- std::ostream& operator<<(std::ostream&, Templated_Class<double>&)
+  param: std::ostream address:0x60e680 value:cant display value of std::ostream
+  param: Templated_Class<double> address:0x7fff8e5d01c0 value:unknown type <Templated_Class<double>>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::ostream& operator<<(std::ostream&, Templated_Class<double>&) at line 27
+Return Value:cant display value of std::ostream
+
+  Start -- void Templated_Class<T>::setData(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff8e5d01e0 value:monkey
+  End --void Templated_Class<T>::setData(T) [with T = std::basic_string<char>]
+  param: std::string address:0x7fff8e5d01e0 value:monkey
+
+
+  Start -- T Templated_Class<T>::getData() [with T = std::basic_string<char>]
+  End frame(1)--T Templated_Class<T>::getData() [with T = std::basic_string<char>] at line 12
+Return Value:monkey
+
+  Start -- std::ostream& operator<<(std::ostream&, Templated_Class<std::basic_string<char> >&)
+  param: std::ostream address:0x60e680 value:cant display value of std::ostream
+  param: Templated_Class<std::string> address:0x7fff8e5d01b0 value:unknown type <Templated_Class<std::string>>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::ostream& operator<<(std::ostream&, Templated_Class<std::basic_string<char> >&) at line 27
+Return Value:cant display value of std::ostream
+

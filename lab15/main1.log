@@ -1,0 +1,12 @@
+log file "main1.log" opened
+  Start -- Queue::Queue()
+  End --Queue::Queue()
+
+
+  Start -- int Queue::peekFront()
+    Start -- bool Queue::empty()
+    End frame(2)--bool Queue::empty() at line 77
+Return Value:true
+
+    Start -- Queue::~Queue()
+    End --Queue::~Queue()

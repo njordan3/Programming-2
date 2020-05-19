@@ -1,0 +1,329 @@
+log file "main1.log" opened
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fff0a418974 value:5
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418800 value:5
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418800 value:5
+  End --Line::Line(int)
+  param: int address:0x7fff0a418974 value:5
+
+
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fff0a418804 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418690 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418690 value:0
+  End --Line::Line(int)
+  param: int address:0x7fff0a418804 value:0
+
+
+  Start -- Square::Square(int)
+  param: int address:0x7fff0a418974 value:5
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418800 value:5
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418800 value:5
+  End --Square::Square(int)
+  param: int address:0x7fff0a418974 value:5
+
+
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fff0a418694 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418520 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418520 value:0
+  End --Line::Line(int)
+  param: int address:0x7fff0a418694 value:0
+
+
+  Start -- Square::Square(int)
+  param: int address:0x7fff0a418804 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418690 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418690 value:0
+  End --Square::Square(int)
+  param: int address:0x7fff0a418804 value:0
+
+
+  Start -- Cube::Cube(int)
+  param: int address:0x7fff0a418974 value:5
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418800 value:5
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418800 value:5
+  End --Cube::Cube(int)
+  param: int address:0x7fff0a418974 value:5
+
+
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fff0a4187f4 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418680 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418680 value:0
+  End --Line::Line(int)
+  param: int address:0x7fff0a4187f4 value:0
+
+
+  Start -- Rectangle::Rectangle(double, double)
+  param: double address:0x7fff0a418970 value:5
+  param: double address:0x7fff0a418968 value:10
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7fff0a4187f0 value:10
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7fff0a4187f0 value:10
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a4187f0 value:5
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a4187f0 value:5
+  End --Rectangle::Rectangle(double, double)
+  param: double address:0x7fff0a418970 value:5
+  param: double address:0x7fff0a418968 value:10
+
+
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fff0a418664 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a4184f0 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a4184f0 value:0
+  End --Line::Line(int)
+  param: int address:0x7fff0a418664 value:0
+
+
+  Start -- Rectangle::Rectangle(double, double)
+  param: double address:0x7fff0a4187e0 value:0
+  param: double address:0x7fff0a4187d8 value:0
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7fff0a418660 value:0
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7fff0a418660 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a418660 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a418660 value:0
+  End --Rectangle::Rectangle(double, double)
+  param: double address:0x7fff0a4187e0 value:0
+  param: double address:0x7fff0a4187d8 value:0
+
+
+  Start -- Rectangular_Prism::Rectangular_Prism(double, double, double)
+  param: double address:0x7fff0a418970 value:5
+  param: double address:0x7fff0a418968 value:10
+  param: double address:0x7fff0a418960 value:15
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff0a4187e0 value:5
+    End --void Line::SetLength(double)
+    param: double address:0x7fff0a4187e0 value:5
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7fff0a4187e0 value:10
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7fff0a4187e0 value:10
+    Start -- void Rectangular_Prism::SetDepth(double)
+    param: double address:0x7fff0a4187e0 value:15
+    End --void Rectangular_Prism::SetDepth(double)
+    param: double address:0x7fff0a4187e0 value:15
+  End --Rectangular_Prism::Rectangular_Prism(double, double, double)
+  param: double address:0x7fff0a418970 value:5
+  param: double address:0x7fff0a418968 value:10
+  param: double address:0x7fff0a418960 value:15
+
+
+  Start -- virtual std::string Square::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 26
+Return Value:0
+
+    Start -- double Square::Area()
+    End frame(2)--double Square::Area() at line 39
+Return Value:25
+
+  End frame(1)--virtual std::string Square::ToString() at line 32
+Return Value:Square: 
+Length: 5
+Area: 25
+Volume: 0
+
+
+  Start -- virtual std::string Shape::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 26
+Return Value:0
+
+    Start -- double Shape::Area()
+    End frame(2)--double Shape::Area() at line 20
+Return Value:0
+
+  End frame(1)--virtual std::string Shape::ToString() at line 36
+Return Value:Shape: 
+Area: 0
+Volume: 0
+
+
+  Start -- virtual std::string Cube::ToString()
+    Start -- double Cube::Volume()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 39
+Return Value:25
+
+    End frame(2)--double Cube::Volume() at line 45
+Return Value:125
+
+    Start -- double Cube::Area()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 39
+Return Value:25
+
+    End frame(2)--double Cube::Area() at line 38
+Return Value:150
+
+  End frame(1)--virtual std::string Cube::ToString() at line 31
+Return Value:Cube: 
+Length: 5
+Area: 150
+Volume: 125
+
+
+  Start -- virtual std::string Rectangle::ToString()
+    Start -- double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 53
+Return Value:50
+
+  End frame(1)--virtual std::string Rectangle::ToString() at line 46
+Return Value:Rectangle: 
+Length: 5
+Width: 10
+Area: 50
+Volume: 0
+
+
+  Start -- virtual std::string Rectangular_Prism::ToString()
+    Start -- double Rectangular_Prism::Volume()
+      Start -- double Rectangle::Area()
+      End frame(3)--double Rectangle::Area() at line 53
+Return Value:50
+
+    End frame(2)--double Rectangular_Prism::Volume() at line 62
+Return Value:750
+
+    Start -- double Rectangular_Prism::Area()
+    End frame(2)--double Rectangular_Prism::Area() at line 55
+Return Value:550
+
+  End frame(1)--virtual std::string Rectangular_Prism::ToString() at line 38
+Return Value:Rectangular_Prism: 
+Length: 5
+Width: 10
+Depth: 15
+Area: 550
+Volume: 750
+
+
+  Start -- virtual std::string Line::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 26
+Return Value:0
+
+    Start -- double Shape::Area()
+    End frame(2)--double Shape::Area() at line 20
+Return Value:0
+
+  End frame(1)--virtual std::string Line::ToString() at line 33
+Return Value:Line: 
+Length: 5
+Area: 0
+Volume: 0
+
+
+  Start -- virtual Square::~Square()
+  End --virtual Square::~Square()
+
+
+  Start -- virtual Line::~Line()
+  End --virtual Line::~Line()
+
+
+  Start -- virtual Shape::~Shape()
+  End --virtual Shape::~Shape()
+
+
+  Start -- virtual Shape::~Shape()
+  End --virtual Shape::~Shape()
+
+
+  Start -- virtual Square::~Square()
+  End --virtual Square::~Square()
+
+
+  Start -- virtual Line::~Line()
+  End --virtual Line::~Line()
+
+
+  Start -- virtual Shape::~Shape()
+  End --virtual Shape::~Shape()
+
+
+  Start -- virtual Rectangle::~Rectangle()
+  End --virtual Rectangle::~Rectangle()
+
+
+  Start -- virtual Line::~Line()
+  End --virtual Line::~Line()
+
+
+  Start -- virtual Shape::~Shape()
+  End --virtual Shape::~Shape()
+
+
+  Start -- virtual Rectangular_Prism::~Rectangular_Prism()
+  End --virtual Rectangular_Prism::~Rectangular_Prism()
+
+
+  Start -- virtual Rectangle::~Rectangle()
+  End --virtual Rectangle::~Rectangle()
+
+
+  Start -- virtual Line::~Line()
+  End --virtual Line::~Line()
+
+
+  Start -- virtual Shape::~Shape()
+  End --virtual Shape::~Shape()
+
+
+  Start -- virtual Line::~Line()
+  End --virtual Line::~Line()
+
+
+  Start -- virtual Shape::~Shape()
+  End --virtual Shape::~Shape()
+
+
