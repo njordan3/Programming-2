@@ -1,0 +1,268 @@
+log file "main.log" opened
+  Start -- BST<T>::BST() [with T = int]
+  End --BST<T>::BST() [with T = int]
+
+
+int main() at line 50  :Option ichosen
+  Start -- bool BST<T>::insert(T) [with T = int]
+  param: int address:0xfff000284 value:50
+  int main() at line 50  :Option ichosen
+    Start -- bool BST<T>::insert(T) [with T = int]
+    param: int address:0xfff000284 value:60
+      Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0xfff00019c value:60
+      End frame(3)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+    End frame(2)--bool BST<T>::insert(T) [with T = int] at line 319
+Return Value:true
+
+  int main() at line 50  :Option ichosen
+    Start -- bool BST<T>::insert(T) [with T = int]
+    param: int address:0xfff000284 value:20
+      Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0xfff00019c value:20
+      End frame(3)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+    End frame(2)--bool BST<T>::insert(T) [with T = int] at line 319
+Return Value:true
+
+  int main() at line 50  :Option pchosen
+    Start -- void BST<T>::print() [with T = int]
+      Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a08620 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a08620 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a05930 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a05930 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    End --void BST<T>::print() [with T = int]
+  int main() at line 50  :Option ichosen
+    Start -- bool BST<T>::insert(T) [with T = int]
+    param: int address:0xfff000284 value:10
+      Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0xfff00019c value:10
+        Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a08620 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0xfff0000ac value:10
+        End frame(4)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+      End frame(3)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+    End frame(2)--bool BST<T>::insert(T) [with T = int] at line 319
+Return Value:true
+
+  int main() at line 50  :Option ichosen
+    Start -- bool BST<T>::insert(T) [with T = int]
+    param: int address:0xfff000284 value:15
+      Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0xfff00019c value:15
+        Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a08620 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0xfff0000ac value:15
+          Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a106a0 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0xffeffffbc value:15
+          End frame(5)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+        End frame(4)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+      End frame(3)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+    End frame(2)--bool BST<T>::insert(T) [with T = int] at line 319
+Return Value:true
+
+  int main() at line 50  :Option ichosen
+    Start -- bool BST<T>::insert(T) [with T = int]
+    param: int address:0xfff000284 value:75
+      Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0xfff00019c value:75
+        Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a05930 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0xfff0000ac value:75
+        End frame(4)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+      End frame(3)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+    End frame(2)--bool BST<T>::insert(T) [with T = int] at line 319
+Return Value:true
+
+  int main() at line 50  :Option ichosen
+    Start -- bool BST<T>::insert(T) [with T = int]
+    param: int address:0xfff000284 value:55
+      Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0xfff00019c value:55
+        Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a05930 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0xfff0000ac value:55
+        End frame(4)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+      End frame(3)--bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int] at line 75
+Return Value:true
+
+    End frame(2)--bool BST<T>::insert(T) [with T = int] at line 319
+Return Value:true
+
+  int main() at line 50  :Option pchosen
+    Start -- void BST<T>::print() [with T = int]
+      Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a08620 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a106a0 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+            param: BST<int>::TreeNode* address:0x5a15a20 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+            param: BST<int>::TreeNode* address:0x5a15a20 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a106a0 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a08620 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a05930 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a1e670 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a1e670 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a1a340 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a1a340 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a05930 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    End --void BST<T>::print() [with T = int]
+  int main() at line 50  :Option cchosen
+    Start -- bool BST<T>::contains(T) [with T = int]
+    param: int address:0xfff000274 value:15
+      Start -- bool BST<T>::empty() [with T = int]
+      End frame(3)--bool BST<T>::empty() [with T = int] at line 300
+Return Value:false
+
+      Start -- bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x5a03820 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0xfff00018c value:15
+        Start -- bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int]
+        param: BST<int>::TreeNode* address:0x5a08620 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0xfff00009c value:15
+          Start -- bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int]
+          param: BST<int>::TreeNode* address:0x5a106a0 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          param: int address:0xffeffffac value:15
+            Start -- bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int]
+            param: BST<int>::TreeNode* address:0x5a15a20 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            param: int address:0xffefffebc value:15
+            End frame(6)--bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int] at line 128
+Return Value:true
+
+          End frame(5)--bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int] at line 128
+Return Value:true
+
+        End frame(4)--bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int] at line 128
+Return Value:true
+
+      End frame(3)--bool BST<T>::containsSubtree(BST<T>::TreeNode*, T) [with T = int] at line 128
+Return Value:true
+
+    End frame(2)--bool BST<T>::contains(T) [with T = int] at line 371
+Return Value:true
+
+  int main() at line 50  :Option cchosen
+    Start -- bool BST<T>::contains(T) [with T = int]
+    param: int address:0xfff000274 value:50
+      Start -- bool BST<T>::empty() [with T = int]
+      End frame(3)--bool BST<T>::empty() [with T = int] at line 300
+Return Value:false
+
+    End frame(2)--bool BST<T>::contains(T) [with T = int] at line 371
+Return Value:true
+
+  int main() at line 50  :Option xchosen
+    Start -- BST<T>::~BST() [with T = int]
+      Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+        Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+              Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+              End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+              Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+              End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+        End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+        Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            Start -- void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+            End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+          End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+        End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+      End --void BST<T>::deallocateSubtree(BST<T>::TreeNode*) [with T = int]
+    End --BST<T>::~BST() [with T = int]

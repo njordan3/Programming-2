@@ -1,0 +1,1464 @@
+log file "main.log" opened
+  Start -- AVL<T>::AVL() [with T = int]
+  End --AVL<T>::AVL() [with T = int]
+
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:50
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:40
+    Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffddea22ebc value:40
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+    End frame(2)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:60
+    Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffddea22ebc value:60
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+    End frame(2)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:35
+    Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffddea22ebc value:35
+      Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffddea22ddc value:35
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+    End frame(2)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:70
+    Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffddea22ebc value:70
+      Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffddea22ddc value:70
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 67
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 67
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+    End frame(2)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:55
+    Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffddea22ebc value:55
+      Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffddea22ddc value:55
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+    End frame(2)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:58
+    Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffddea22ebc value:58
+      Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffddea22ddc value:58
+        Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffddea22cfc value:58
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 67
+Return Value:2
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 67
+Return Value:2
+
+      End frame(3)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 67
+Return Value:2
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:3
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 67
+Return Value:2
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:3
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f2b0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+    End frame(2)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option dchosen
+  Start -- bool AVL<T>::remove(T) [with T = int]
+  param: int address:0x7ffddea22f84 value:35
+    Start -- bool AVL<T>::remove(AVL<T>::TreeNode*, T) [with T = int]
+    param: int address:0x7ffddea22e9c value:35
+    bool AVL<T>::remove(AVL<T>::TreeNode*, T) [with T = int] at line 275  :Case 1 , no child nodes
+    bool AVL<T>::remove(AVL<T>::TreeNode*, T) [with T = int] at line 286  :deleting a node containing 35    End frame(2)--bool AVL<T>::remove(AVL<T>::TreeNode*, T) [with T = int] at line 292
+Return Value:true
+
+  End frame(1)--bool AVL<T>::remove(T) [with T = int] at line 425
+Return Value:true
+
+int main() at line 50  :Option ichosen
+  Start -- AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int]
+  param: int address:0x7ffddea22f94 value:52
+    Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    param: int address:0x7ffddea22ebc value:52
+      Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7ffddea22ddc value:52
+        Start -- AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        param: int address:0x7ffddea22cfc value:52
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        End frame(4)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      End frame(3)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 149
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:3
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+          Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+          param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+            Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+            param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+            End frame(6)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+          End frame(5)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:2
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:3
+
+      Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+        Start -- int AVL<T>::height(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode**  address:0 points_to_value:nullptr
+        End frame(4)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 60
+Return Value:0
+
+      End frame(3)--int AVL<T>::height(AVL<T>::TreeNode*) [with T = int] at line 70
+Return Value:1
+
+    AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 142  :RL Scenario
+      Start -- AVL<T>::TreeNode* AVL<T>::rightRotate(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      End frame(3)--AVL<T>::TreeNode* AVL<T>::rightRotate(AVL<T>::TreeNode*) [with T = int] at line 42
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+      Start -- AVL<T>::TreeNode* AVL<T>::leftRotate(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      End frame(3)--AVL<T>::TreeNode* AVL<T>::leftRotate(AVL<T>::TreeNode*) [with T = int] at line 52
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+    End frame(2)--AVL<T>::TreeNode* AVL<T>::insertSubtree(AVL<T>::TreeNode*, T) [with T = int] at line 146
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+  End frame(1)--AVL<T>::TreeNode* AVL<T>::insert(T) [with T = int] at line 392
+Return Value:unknown type <AVL<int>::TreeNode*>, cant display value try converting it to a string or overoad ostream << 
+
+
+int main() at line 50  :Option pchosen
+  Start -- void AVL<T>::print() [with T = int]
+    Start -- void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      Start -- void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f010 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f100 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      End --void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f290 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      Start -- void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f0e0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        Start -- void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+        param: AVL<int>::TreeNode* address:0x1b6f050 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      End --void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+      param: AVL<int>::TreeNode* address:0x1b6f030 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+    End --void AVL<T>::printSubtree(AVL<T>::TreeNode*) [with T = int]
+    param: AVL<int>::TreeNode* address:0x1b6f0c0 points_to_value:unknown type <AVL<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+  End --void AVL<T>::print() [with T = int]
+
+
+int main() at line 50  :Option xchosen
+  Start -- AVL<T>::~AVL() [with T = int]
+    Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+      Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+      End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+      Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          Start -- void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+          End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+        End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+      End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+    End --void AVL<T>::deallocateSubtree(AVL<T>::TreeNode*) [with T = int]
+  End --AVL<T>::~AVL() [with T = int]
+
+

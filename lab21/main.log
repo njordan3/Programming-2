@@ -1,0 +1,29 @@
+log file "main.log" opened
+  Start -- BST<T>::BST() [with T = int]
+  End --BST<T>::BST() [with T = int]
+
+
+int main() at line 45  :Option ichosen
+  Start -- bool BST<T>::insert(T) [with T = int]
+  param: int address:0x7fff01009f84 value:23
+  int main() at line 45  :Option ichosen
+    Start -- bool BST<T>::insert(T) [with T = int]
+    param: int address:0x7fff01009f84 value:23
+      Start -- bool BST<T>::insertSubtree(BST<T>::TreeNode*, T) [with T = int]
+      param: BST<int>::TreeNode* address:0x2598290 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      param: int address:0x7fff01009e9c value:23
+      End frame(3)--bool BST<T>::insert(T) [with T = int] at line 281
+Return Value:false
+
+    int main() at line 45  :Option pchosen
+      Start -- void BST<T>::print() [with T = int]
+        Start -- void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x2598290 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+        End --void BST<T>::printSubtree(BST<T>::TreeNode*) [with T = int]
+        param: BST<int>::TreeNode* address:0x2598290 points_to_value:unknown type <BST<int>::TreeNode>, cant display value try converting it to a string or overoad ostream << 
+
+      End --void BST<T>::print() [with T = int]
+    int main() at line 45  :Option mchosen
+    int main() at line 45  :Option ichosen
