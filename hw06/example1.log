@@ -1,0 +1,23 @@
+log file "example1.log" opened
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- double Shape::Volume()
+  End frame(1)--double Shape::Volume() at line 45
+Return Value:0
+
+  Start -- double Shape::Area()
+  End frame(1)--double Shape::Area() at line 38
+Return Value:0
+
+End frame(0)--std::string Shape::ToString() at line 32
+Return Value:Shape:
+Area: 0
+Volume: 0
+
+
+  Start -- Shape::~Shape()
+  End --Shape::~Shape()
+
+

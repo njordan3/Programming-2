@@ -1,0 +1,139 @@
+log file "main4.log" opened
+  Start -- Line::Line(int)
+  param: int address:0x7ffd80cbc184 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffd80cbc010 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffd80cbc010 value:0
+  End --Line::Line(int)
+  param: int address:0x7ffd80cbc184 value:0
+
+
+  Start -- Square::Square(int)
+  param: int address:0x7ffd80cbc2f4 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffd80cbc180 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffd80cbc180 value:0
+  End --Square::Square(int)
+  param: int address:0x7ffd80cbc2f4 value:0
+
+
+  Start -- Cube::Cube(int)
+  param: int address:0x7ffd80cbc464 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffd80cbc2f0 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffd80cbc2f0 value:0
+  End --Cube::Cube(int)
+  param: int address:0x7ffd80cbc464 value:0
+
+
+  Start -- std::string Cube::ToString()
+    Start -- double Cube::Volume()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 37
+Return Value:0
+
+    End frame(2)--double Cube::Volume() at line 44
+Return Value:0
+
+    Start -- double Cube::Area()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 37
+Return Value:0
+
+    End frame(2)--double Cube::Area() at line 37
+Return Value:0
+
+  End frame(1)--std::string Cube::ToString() at line 30
+Return Value:Cube: 
+Length: 0
+Area: 0
+Volume: 0
+
+
+  Start -- void Line::SetLength(double)
+  param: double address:0x7ffd80cbc460 value:6
+  End --void Line::SetLength(double)
+  param: double address:0x7ffd80cbc460 value:6
+
+
+  Start -- std::string Cube::ToString()
+    Start -- double Cube::Volume()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 37
+Return Value:36
+
+    End frame(2)--double Cube::Volume() at line 44
+Return Value:216
+
+    Start -- double Cube::Area()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 37
+Return Value:36
+
+    End frame(2)--double Cube::Area() at line 37
+Return Value:216
+
+  End frame(1)--std::string Cube::ToString() at line 30
+Return Value:Cube: 
+Length: 6
+Area: 216
+Volume: 216
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7ffd80cbc184 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffd80cbc010 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffd80cbc010 value:0
+  End --Line::Line(int)
+  param: int address:0x7ffd80cbc184 value:0
+
+
+  Start -- Square::Square(int)
+  param: int address:0x7ffd80cbc2f4 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffd80cbc180 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffd80cbc180 value:0
+  End --Square::Square(int)
+  param: int address:0x7ffd80cbc2f4 value:0
+
+
+  Start -- Cube::Cube(int)
+  param: int address:0x7ffd80cbc464 value:11
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffd80cbc2f0 value:11
+    End --void Line::SetLength(double)
+    param: double address:0x7ffd80cbc2f0 value:11
+  End --Cube::Cube(int)
+  param: int address:0x7ffd80cbc464 value:11
+
+
+  Start -- std::string Cube::ToString()
+    Start -- double Cube::Volume()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 37
+Return Value:121
+
+    End frame(2)--double Cube::Volume() at line 44
+Return Value:1331
+
+    Start -- double Cube::Area()
+      Start -- double Square::Area()
+      End frame(3)--double Square::Area() at line 37
+Return Value:121
+
+    End frame(2)--double Cube::Area() at line 37
+Return Value:726
+
+  End frame(1)--std::string Cube::ToString() at line 30
+Return Value:Cube: 
+Length: 11
+Area: 726
+Volume: 1331
+
+

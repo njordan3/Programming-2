@@ -1,0 +1,40 @@
+16 out 0f 20
+
+
+
+
+
+  
+  // the sort tests do absolutley nothing
+  
+  
+      cout << "\nTesting Function5\n";
+      double e[9] = { 32.1, 0, 17.4, -1.5, 61.6, -86.1, 14.1, 53.3, 64.8};
+      double * eptr = e;
+      for(int i = 0; i < 9; i += 3)
+      {
+          Function5((eptr + i),(eptr + i + 1), (eptr + i + 2));
+          cout << PF(VeryClose(*(eptr + i), e[i]) && VeryClose(*(eptr + i + 1),    e[i + 1]) && VeryClose(*(eptr + i + 2), e[i + 2])) << endl;
+  
+  
+  // lets examine the first test
+  
+      VeryClose(*(eptr + i), e[i])
+      *(eptr+1) and e[i] are the same thing all your test copare sonething    to itself
+  
+        if a==a and b==b and c==c
+  
+  
+  you sort accending doesnt work and your test says it does
+  
+      }
+
+
+   your logic is compicated , hard to follow and does not work, why not something simple
+
+
+ double a=30.1,b=10.1,c=20.1;
+  Sort(c,b,a);
+cout << PF ( (VeryClose(a, 10.1) && VeryClose(b,20.1) && VeryClose(c,30.1)) << endl;
+
+

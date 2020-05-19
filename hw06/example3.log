@@ -1,0 +1,108 @@
+log file "example3.log" opened
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(double)
+  param: double address:0x7fff929e9220 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff929e90a0 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff929e90a0 value:0
+  End --Line::Line(double)
+  param: double address:0x7fff929e9220 value:0
+
+
+  Start -- Square::Square(double)
+  param: double address:0x7fff929e93a0 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff929e9220 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff929e9220 value:0
+  End --Square::Square(double)
+  param: double address:0x7fff929e93a0 value:0
+
+
+  Start -- double Shape::Volume()
+  End frame(1)--double Shape::Volume() at line 45
+Return Value:0
+
+  Start -- double Square::Area()
+  End frame(1)--double Square::Area() at line 32
+Return Value:0
+
+End frame(0)--std::string Square::ToString() at line 25
+Return Value:Square:
+Length: 0
+Area: 0
+Volume: 0
+
+
+  Start -- void Line::SetLength(double)
+  param: double address:0x7fff929e93a0 value:5
+  End --void Line::SetLength(double)
+  param: double address:0x7fff929e93a0 value:5
+
+
+  Start -- double Shape::Volume()
+  End frame(0)--double Shape::Volume() at line 45
+Return Value:0
+
+  Start -- double Square::Area()
+  End frame(0)--double Square::Area() at line 32
+Return Value:25
+
+End frame(-1)--std::string Square::ToString() at line 25
+Return Value:Square:
+Length: 5
+Area: 25
+Volume: 0
+
+
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(double)
+  param: double address:0x7fff929e9220 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff929e90a0 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff929e90a0 value:0
+  End --Line::Line(double)
+  param: double address:0x7fff929e9220 value:0
+
+
+  Start -- Square::Square(double)
+  param: double address:0x7fff929e93a0 value:10
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff929e9220 value:10
+    End --void Line::SetLength(double)
+    param: double address:0x7fff929e9220 value:10
+  End --Square::Square(double)
+  param: double address:0x7fff929e93a0 value:10
+
+
+  Start -- double Shape::Volume()
+  End frame(-1)--double Shape::Volume() at line 45
+Return Value:0
+
+  Start -- double Square::Area()
+  End frame(-1)--double Square::Area() at line 32
+Return Value:100
+
+End frame(-2)--std::string Square::ToString() at line 25
+Return Value:Square:
+Length: 10
+Area: 100
+Volume: 0
+
+
+  Start -- Shape::~Shape()
+  End --Shape::~Shape()
+
+
+  Start -- Shape::~Shape()
+  End --Shape::~Shape()
+
+

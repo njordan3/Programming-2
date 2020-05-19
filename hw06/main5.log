@@ -1,0 +1,104 @@
+log file "main5.log" opened
+  Start -- Line::Line(int)
+  param: int address:0x7fff134e18e4 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff134e1770 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff134e1770 value:0
+  End --Line::Line(int)
+  param: int address:0x7fff134e18e4 value:0
+
+
+  Start -- Rectangle::Rectangle(double, double)
+  param: double address:0x7fff134e1a60 value:0
+  param: double address:0x7fff134e1a58 value:0
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7fff134e18e0 value:0
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7fff134e18e0 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff134e18e0 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff134e18e0 value:0
+  End --Rectangle::Rectangle(double, double)
+  param: double address:0x7fff134e1a60 value:0
+  param: double address:0x7fff134e1a58 value:0
+
+
+  Start -- std::string Rectangle::ToString()
+    Start -- double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 51
+Return Value:0
+
+  End frame(1)--std::string Rectangle::ToString() at line 44
+Return Value:Rectangle: 
+Length: 0
+Width: 0
+Area: 0
+Volume: 0
+
+
+  Start -- void Line::SetLength(double)
+  param: double address:0x7fff134e1a60 value:5
+  End --void Line::SetLength(double)
+  param: double address:0x7fff134e1a60 value:5
+
+
+  Start -- void Rectangle::SetWidth(double)
+  param: double address:0x7fff134e1a60 value:7
+  End --void Rectangle::SetWidth(double)
+  param: double address:0x7fff134e1a60 value:7
+
+
+  Start -- std::string Rectangle::ToString()
+    Start -- double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 51
+Return Value:35
+
+  End frame(1)--std::string Rectangle::ToString() at line 44
+Return Value:Rectangle: 
+Length: 5
+Width: 7
+Area: 35
+Volume: 0
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fff134e18e4 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff134e1770 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff134e1770 value:0
+  End --Line::Line(int)
+  param: int address:0x7fff134e18e4 value:0
+
+
+  Start -- Rectangle::Rectangle(double, double)
+  param: double address:0x7fff134e1a60 value:6
+  param: double address:0x7fff134e1a58 value:9
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7fff134e18e0 value:9
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7fff134e18e0 value:9
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff134e18e0 value:6
+    End --void Line::SetLength(double)
+    param: double address:0x7fff134e18e0 value:6
+  End --Rectangle::Rectangle(double, double)
+  param: double address:0x7fff134e1a60 value:6
+  param: double address:0x7fff134e1a58 value:9
+
+
+  Start -- std::string Rectangle::ToString()
+    Start -- double Rectangle::Area()
+    End frame(2)--double Rectangle::Area() at line 51
+Return Value:54
+
+  End frame(1)--std::string Rectangle::ToString() at line 44
+Return Value:Rectangle: 
+Length: 6
+Width: 9
+Area: 54
+Volume: 0
+
+

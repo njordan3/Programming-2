@@ -1,0 +1,98 @@
+log file "main2.log" opened
+  Start -- DynamicArray::DynamicArray(int)
+  param: int address:0x7ffed588caf4 value:5
+  DynamicArray::DynamicArray(int) at line 8  :at the beginning of the constructor the pointer data is (nil)
+  DynamicArray::DynamicArray(int) at line 11  :setting the pointer data to a new array of size 5
+  DynamicArray::DynamicArray(int) at line 12  :at the end of the constructor the pointer data is 0x23e2018, it should be different than what it was
+  End --DynamicArray::DynamicArray(int)
+  param: int address:0x7ffed588cc88 value:5
+
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588cc90 value:Homer
+  param: int address:0x7ffed588cb9c value:-1
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:false
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588cca0 value:Homer
+  param: int address:0x7ffed588cb9c value:5
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:false
+
+  Start -- std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 32
+Return Value:capacity: 5
+data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588ccc0 value:Homer
+  param: int address:0x7ffed588cb9c value:0
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588ccd0 value:Marge
+  param: int address:0x7ffed588cb9c value:1
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588cce0 value:Bart
+  param: int address:0x7ffed588cb9c value:2
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588ccf0 value:Lisa
+  param: int address:0x7ffed588cb9c value:3
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588cd00 value:Maggie
+  param: int address:0x7ffed588cb9c value:4
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588cd10 value:Apu
+  param: int address:0x7ffed588cb9c value:5
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:false
+
+  Start -- std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 32
+Return Value:capacity: 5
+data[0] value: Homer
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffed588cd50 value:Manjula
+  param: int address:0x7ffed588cb9c value:0
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 49
+Return Value:true
+
+  Start -- std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 32
+Return Value:capacity: 5
+data[0] value: Manjula
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+
+
+  Start -- DynamicArray::~DynamicArray()
+  End --DynamicArray::~DynamicArray()
+
+

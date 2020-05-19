@@ -1,0 +1,309 @@
+log file "example1.log" opened
+  Start -- void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:32679
+  param: int address:0x7fffe96c0694 value:-10
+  param: int address:0x7fffe96c0690 value:0
+  param: int address:0x7fffe96c068c value:10
+  End --void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:0
+  param: int address:0x7fffe96c0694 value:-10
+  param: int address:0x7fffe96c0690 value:0
+  param: int address:0x7fffe96c068c value:10
+
+
+  Start -- void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:0
+  param: int address:0x7fffe96c0694 value:-10
+  param: int address:0x7fffe96c0690 value:-50
+  param: int address:0x7fffe96c068c value:10
+  End --void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:-10
+  param: int address:0x7fffe96c0694 value:-10
+  param: int address:0x7fffe96c0690 value:-50
+  param: int address:0x7fffe96c068c value:10
+
+
+  Start -- void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:-10
+  param: int address:0x7fffe96c0694 value:-10
+  param: int address:0x7fffe96c0690 value:-50
+  param: int address:0x7fffe96c068c value:-110
+  End --void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:-50
+  param: int address:0x7fffe96c0694 value:-10
+  param: int address:0x7fffe96c0690 value:-50
+  param: int address:0x7fffe96c068c value:-110
+
+
+  Start -- void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:-50
+  param: int address:0x7fffe96c0694 value:175
+  param: int address:0x7fffe96c0690 value:150
+  param: int address:0x7fffe96c068c value:160
+  End --void Function1(int*, int, int, int)
+  param: int pointer*  address:0x7fffe96c083c points_to_value:160
+  param: int address:0x7fffe96c0694 value:175
+  param: int address:0x7fffe96c0690 value:150
+  param: int address:0x7fffe96c068c value:160
+
+
+  Start -- void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:ø
+  param: char address:0x7fffe96c0694 value:a
+  param: char address:0x7fffe96c0690 value:b
+  param: char address:0x7fffe96c068c value:c
+  End --void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:b
+  param: char address:0x7fffe96c0694 value:a
+  param: char address:0x7fffe96c0690 value:b
+  param: char address:0x7fffe96c068c value:c
+
+
+  Start -- void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:b
+  param: char address:0x7fffe96c0694 value:x
+  param: char address:0x7fffe96c0690 value:z
+  param: char address:0x7fffe96c068c value:y
+  End --void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:y
+  param: char address:0x7fffe96c0694 value:x
+  param: char address:0x7fffe96c0690 value:z
+  param: char address:0x7fffe96c068c value:y
+
+
+  Start -- void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:y
+  param: char address:0x7fffe96c0694 value: 
+  param: char address:0x7fffe96c0690 value:a
+  param: char address:0x7fffe96c068c value:b
+  End --void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:a
+  param: char address:0x7fffe96c0694 value: 
+  param: char address:0x7fffe96c0690 value:a
+  param: char address:0x7fffe96c068c value:b
+
+
+  Start -- void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:a
+  param: char address:0x7fffe96c0694 value:1
+  param: char address:0x7fffe96c0690 value:4
+  param: char address:0x7fffe96c068c value:7
+  End --void Function2(char*, char, char, char)
+  param: char pointer*  address:0x7fffe96c083b points_to_value:4
+  param: char address:0x7fffe96c0694 value:1
+  param: char address:0x7fffe96c0690 value:4
+  param: char address:0x7fffe96c068c value:7
+
+
+  Start -- void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:6.95334e-310
+  param: double address:0x7fffe96c0690 value:100.1
+  param: double address:0x7fffe96c0688 value:100.1
+  param: double address:0x7fffe96c0680 value:100.1
+  param: double address:0x7fffe96c0678 value:100.1
+  param: double address:0x7fffe96c0670 value:100.1
+  End --void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:500.5
+  param: double address:0x7fffe96c0690 value:100.1
+  param: double address:0x7fffe96c0688 value:100.1
+  param: double address:0x7fffe96c0680 value:100.1
+  param: double address:0x7fffe96c0678 value:100.1
+  param: double address:0x7fffe96c0670 value:100.1
+
+
+  Start -- void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:500.5
+  param: double address:0x7fffe96c0690 value:100.6
+  param: double address:0x7fffe96c0688 value:100.1
+  param: double address:0x7fffe96c0680 value:100.1
+  param: double address:0x7fffe96c0678 value:100.1
+  param: double address:0x7fffe96c0670 value:100.1
+  End --void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:501
+  param: double address:0x7fffe96c0690 value:100.6
+  param: double address:0x7fffe96c0688 value:100.1
+  param: double address:0x7fffe96c0680 value:100.1
+  param: double address:0x7fffe96c0678 value:100.1
+  param: double address:0x7fffe96c0670 value:100.1
+
+
+  Start -- void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:501
+  param: double address:0x7fffe96c0690 value:10.1
+  param: double address:0x7fffe96c0688 value:100.1
+  param: double address:0x7fffe96c0680 value:10.1
+  param: double address:0x7fffe96c0678 value:-1.1
+  param: double address:0x7fffe96c0670 value:100.1
+  End --void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:219.3
+  param: double address:0x7fffe96c0690 value:10.1
+  param: double address:0x7fffe96c0688 value:100.1
+  param: double address:0x7fffe96c0680 value:10.1
+  param: double address:0x7fffe96c0678 value:-1.1
+  param: double address:0x7fffe96c0670 value:100.1
+
+
+  Start -- void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:219.3
+  param: double address:0x7fffe96c0690 value:100
+  param: double address:0x7fffe96c0688 value:1.1
+  param: double address:0x7fffe96c0680 value:100
+  param: double address:0x7fffe96c0678 value:0
+  param: double address:0x7fffe96c0670 value:100
+  End --void Function3(double*, double, double, double, double, double)
+  param: double pointer*  address:0x7fffe96c0830 points_to_value:301.1
+  param: double address:0x7fffe96c0690 value:100
+  param: double address:0x7fffe96c0688 value:1.1
+  param: double address:0x7fffe96c0680 value:100
+  param: double address:0x7fffe96c0678 value:0
+  param: double address:0x7fffe96c0670 value:100
+
+
+  Start -- void Function4(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:300.3
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:100.1
+  End --void Function4(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:100.1
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:300.3
+
+
+  Start -- void Function4(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:400.4
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:300.3
+  End --void Function4(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:300.3
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:400.4
+
+
+  Start -- void Function4(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:500.5
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:400.4
+  End --void Function4(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:400.4
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:500.5
+
+
+  Start -- void Function5(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:300.3
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:100.1
+  End --void Function5(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:300.3
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:100.1
+
+
+  Start -- void Function5(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:400.4
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:100.1
+  End --void Function5(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:400.4
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:200.2
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:100.1
+
+
+  Start -- void Function5(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:400.4
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:500.5
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:100.1
+  End --void Function5(double*, double*, double*)
+  param: double pointer*  address:0x7fffe96c0818 points_to_value:500.5
+  param: double pointer*  address:0x7fffe96c0820 points_to_value:400.4
+  param: double pointer*  address:0x7fffe96c0828 points_to_value:100.1
+
+
+  Start -- char Function6(char)
+  param: char address:0x7fffe96c073c value:z
+  End frame(1)--char Function6(char) at line 67
+Return Value:Z
+
+  Start -- char Function6(char)
+  param: char address:0x7fffe96c073c value:1
+  End frame(1)--char Function6(char) at line 67
+Return Value:1
+
+  Start -- char Function6(char)
+  param: char address:0x7fffe96c073c value:P
+  End frame(1)--char Function6(char) at line 67
+Return Value:P
+
+  Start -- char Function6(char)
+  param: char address:0x7fffe96c073c value:p
+  End frame(1)--char Function6(char) at line 67
+Return Value:P
+
+  Start -- char Function7(char)
+  param: char address:0x7fffe96c073c value:Z
+  End frame(1)--char Function7(char) at line 76
+Return Value:z
+
+  Start -- char Function7(char)
+  param: char address:0x7fffe96c073c value:1
+  End frame(1)--char Function7(char) at line 76
+Return Value:1
+
+  Start -- char Function7(char)
+  param: char address:0x7fffe96c073c value:P
+  End frame(1)--char Function7(char) at line 76
+Return Value:p
+
+  Start -- char Function7(char)
+  param: char address:0x7fffe96c073c value:p
+  End frame(1)--char Function7(char) at line 76
+Return Value:p
+
+  Start -- void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:z
+  End --void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:Z
+
+
+  Start -- void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:1
+  End --void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:1
+
+
+  Start -- void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:P
+  End --void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:P
+
+
+  Start -- void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:p
+  End --void Function8(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:P
+
+
+  Start -- void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:Z
+  End --void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:z
+
+
+  Start -- void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:1
+  End --void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:1
+
+
+  Start -- void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:P
+  End --void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:p
+
+
+  Start -- void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:p
+  End --void Function9(char*)
+  param: char pointer*  address:0x7fffe96c0817 points_to_value:p
+
+

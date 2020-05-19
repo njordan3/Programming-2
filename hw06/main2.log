@@ -1,0 +1,90 @@
+log file "main2.log" opened
+  Start -- std::string Shape::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 23
+Return Value:0
+
+    Start -- double Shape::Area()
+    End frame(2)--double Shape::Area() at line 17
+Return Value:0
+
+  End frame(1)--std::string Shape::ToString() at line 33
+Return Value:Shape: 
+Area: 0
+Volume: 0
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fffe5a19454 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fffe5a192e0 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fffe5a192e0 value:0
+  End --Line::Line(int)
+  param: int address:0x7fffe5a19454 value:0
+
+
+  Start -- std::string Line::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 23
+Return Value:0
+
+    Start -- double Shape::Area()
+    End frame(2)--double Shape::Area() at line 17
+Return Value:0
+
+  End frame(1)--std::string Line::ToString() at line 31
+Return Value:Line: 
+Length: 0
+Area: 0
+Volume: 0
+
+
+  Start -- void Line::SetLength(double)
+  param: double address:0x7fffe5a19450 value:5
+  End --void Line::SetLength(double)
+  param: double address:0x7fffe5a19450 value:5
+
+
+  Start -- std::string Line::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 23
+Return Value:0
+
+    Start -- double Shape::Area()
+    End frame(2)--double Shape::Area() at line 17
+Return Value:0
+
+  End frame(1)--std::string Line::ToString() at line 31
+Return Value:Line: 
+Length: 5
+Area: 0
+Volume: 0
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7fffe5a19454 value:9
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fffe5a192e0 value:9
+    End --void Line::SetLength(double)
+    param: double address:0x7fffe5a192e0 value:9
+  End --Line::Line(int)
+  param: int address:0x7fffe5a19454 value:9
+
+
+  Start -- std::string Line::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 23
+Return Value:0
+
+    Start -- double Shape::Area()
+    End frame(2)--double Shape::Area() at line 17
+Return Value:0
+
+  End frame(1)--std::string Line::ToString() at line 31
+Return Value:Line: 
+Length: 9
+Area: 0
+Volume: 0
+
+

@@ -1,0 +1,152 @@
+log file "example4.log" opened
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(double)
+  param: double address:0x7fff299ab080 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff299aaf00 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff299aaf00 value:0
+  End --Line::Line(double)
+  param: double address:0x7fff299ab080 value:0
+
+
+  Start -- Square::Square(double)
+  param: double address:0x7fff299ab200 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff299ab080 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff299ab080 value:0
+  End --Square::Square(double)
+  param: double address:0x7fff299ab200 value:0
+
+
+  Start -- Cube::Cube(double)
+  param: double address:0x7fff299ab380 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff299ab200 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff299ab200 value:0
+  End --Cube::Cube(double)
+  param: double address:0x7fff299ab380 value:0
+
+
+  Start -- double Cube::Volume()
+    Start -- double Square::Area()
+    End frame(2)--double Square::Area() at line 32
+Return Value:0
+
+  End frame(1)--double Cube::Volume() at line 41
+Return Value:0
+
+  Start -- double Cube::Area()
+    Start -- double Square::Area()
+    End frame(2)--double Square::Area() at line 32
+Return Value:0
+
+  End frame(1)--double Cube::Area() at line 33
+Return Value:0
+
+End frame(0)--std::string Cube::ToString() at line 25
+Return Value:Cube:
+Length: 0
+Area: 0
+Volume: 0
+
+
+  Start -- void Line::SetLength(double)
+  param: double address:0x7fff299ab380 value:6
+  End --void Line::SetLength(double)
+  param: double address:0x7fff299ab380 value:6
+
+
+  Start -- double Cube::Volume()
+    Start -- double Square::Area()
+    End frame(1)--double Square::Area() at line 32
+Return Value:36
+
+  End frame(0)--double Cube::Volume() at line 41
+Return Value:216
+
+  Start -- double Cube::Area()
+    Start -- double Square::Area()
+    End frame(1)--double Square::Area() at line 32
+Return Value:36
+
+  End frame(0)--double Cube::Area() at line 33
+Return Value:216
+
+End frame(-1)--std::string Cube::ToString() at line 25
+Return Value:Cube:
+Length: 6
+Area: 216
+Volume: 216
+
+
+  Start -- Shape::Shape()
+  End --Shape::Shape()
+
+
+  Start -- Line::Line(double)
+  param: double address:0x7fff299ab080 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff299aaf00 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff299aaf00 value:0
+  End --Line::Line(double)
+  param: double address:0x7fff299ab080 value:0
+
+
+  Start -- Square::Square(double)
+  param: double address:0x7fff299ab200 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff299ab080 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7fff299ab080 value:0
+  End --Square::Square(double)
+  param: double address:0x7fff299ab200 value:0
+
+
+  Start -- Cube::Cube(double)
+  param: double address:0x7fff299ab380 value:11
+    Start -- void Line::SetLength(double)
+    param: double address:0x7fff299ab200 value:11
+    End --void Line::SetLength(double)
+    param: double address:0x7fff299ab200 value:11
+  End --Cube::Cube(double)
+  param: double address:0x7fff299ab380 value:11
+
+
+  Start -- double Cube::Volume()
+    Start -- double Square::Area()
+    End frame(0)--double Square::Area() at line 32
+Return Value:121
+
+  End frame(-1)--double Cube::Volume() at line 41
+Return Value:1331
+
+  Start -- double Cube::Area()
+    Start -- double Square::Area()
+    End frame(0)--double Square::Area() at line 32
+Return Value:121
+
+  End frame(-1)--double Cube::Area() at line 33
+Return Value:726
+
+End frame(-2)--std::string Cube::ToString() at line 25
+Return Value:Cube:
+Length: 11
+Area: 726
+Volume: 1331
+
+
+  Start -- Shape::~Shape()
+  End --Shape::~Shape()
+
+
+  Start -- Shape::~Shape()
+  End --Shape::~Shape()
+
+

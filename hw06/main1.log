@@ -1,0 +1,16 @@
+log file "main1.log" opened
+  Start -- std::string Shape::ToString()
+    Start -- double Shape::Volume()
+    End frame(2)--double Shape::Volume() at line 23
+Return Value:0
+
+    Start -- double Shape::Area()
+    End frame(2)--double Shape::Area() at line 17
+Return Value:0
+
+  End frame(1)--std::string Shape::ToString() at line 33
+Return Value:Shape: 
+Area: 0
+Volume: 0
+
+

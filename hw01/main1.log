@@ -1,0 +1,257 @@
+log file "main1.log" opened
+  Start -- int Function1(int, int, int)
+  param: int address:0x7fffee8c65fc value:-10
+  param: int address:0x7fffee8c65f8 value:0
+  param: int address:0x7fffee8c65f4 value:10
+  End frame(1)--int Function1(int, int, int) at line 15
+Return Value:0
+
+  Start -- int Function1(int, int, int)
+  param: int address:0x7fffee8c65fc value:-10
+  param: int address:0x7fffee8c65f8 value:-50
+  param: int address:0x7fffee8c65f4 value:10
+  End frame(1)--int Function1(int, int, int) at line 15
+Return Value:-10
+
+  Start -- int Function1(int, int, int)
+  param: int address:0x7fffee8c65fc value:-10
+  param: int address:0x7fffee8c65f8 value:-50
+  param: int address:0x7fffee8c65f4 value:-110
+  End frame(1)--int Function1(int, int, int) at line 15
+Return Value:-50
+
+  Start -- int Function1(int, int, int)
+  param: int address:0x7fffee8c65fc value:175
+  param: int address:0x7fffee8c65f8 value:150
+  param: int address:0x7fffee8c65f4 value:160
+  End frame(1)--int Function1(int, int, int) at line 15
+Return Value:160
+
+  Start -- char MiddleChar_PBV(char, char, char)
+  param: char address:0x7fffee8c65fc value:s
+  param: char address:0x7fffee8c65f8 value:g
+  param: char address:0x7fffee8c65f4 value:j
+  End frame(1)--char MiddleChar_PBV(char, char, char) at line 49
+Return Value:j
+
+  Start -- char MiddleChar_PBV(char, char, char)
+  param: char address:0x7fffee8c65fc value:c
+  param: char address:0x7fffee8c65f8 value:a
+  param: char address:0x7fffee8c65f4 value:z
+  End frame(1)--char MiddleChar_PBV(char, char, char) at line 49
+Return Value:c
+
+  Start -- char MiddleChar_PBV(char, char, char)
+  param: char address:0x7fffee8c65fc value:q
+  param: char address:0x7fffee8c65f8 value:k
+  param: char address:0x7fffee8c65f4 value:s
+  End frame(1)--char MiddleChar_PBV(char, char, char) at line 49
+Return Value:q
+
+  Start -- void MiddleValue_PBR(int&, int, int, int)
+  param: int address:0x7fffee8c670c value:160
+  param: int address:0x7fffee8c6564 value:22
+  param: int address:0x7fffee8c6560 value:45
+  param: int address:0x7fffee8c655c value:-1
+  End --void MiddleValue_PBR(int&, int, int, int)
+  param: int address:0x7fffee8c670c value:22
+  param: int address:0x7fffee8c6564 value:22
+  param: int address:0x7fffee8c6560 value:45
+  param: int address:0x7fffee8c655c value:-1
+
+
+  Start -- void MiddleValue_PBR(int&, int, int, int)
+  param: int address:0x7fffee8c670c value:22
+  param: int address:0x7fffee8c6564 value:-100
+  param: int address:0x7fffee8c6560 value:0
+  param: int address:0x7fffee8c655c value:24
+  End --void MiddleValue_PBR(int&, int, int, int)
+  param: int address:0x7fffee8c670c value:0
+  param: int address:0x7fffee8c6564 value:-100
+  param: int address:0x7fffee8c6560 value:0
+  param: int address:0x7fffee8c655c value:24
+
+
+  Start -- void MiddleValue_PBR(int&, int, int, int)
+  param: int address:0x7fffee8c670c value:0
+  param: int address:0x7fffee8c6564 value:1000
+  param: int address:0x7fffee8c6560 value:224
+  param: int address:0x7fffee8c655c value:542
+  End --void MiddleValue_PBR(int&, int, int, int)
+  param: int address:0x7fffee8c670c value:542
+  param: int address:0x7fffee8c6564 value:1000
+  param: int address:0x7fffee8c6560 value:224
+  param: int address:0x7fffee8c655c value:542
+
+
+  Start -- void MiddleChar_PBR(char&, char, char, char)
+  param: char address:0x7fffee8c670b value:q
+  param: char address:0x7fffee8c6564 value:k
+  param: char address:0x7fffee8c6560 value:p
+  param: char address:0x7fffee8c655c value:v
+  End --void MiddleChar_PBR(char&, char, char, char)
+  param: char address:0x7fffee8c670b value:p
+  param: char address:0x7fffee8c6564 value:k
+  param: char address:0x7fffee8c6560 value:p
+  param: char address:0x7fffee8c655c value:v
+
+
+  Start -- void MiddleChar_PBR(char&, char, char, char)
+  param: char address:0x7fffee8c670b value:p
+  param: char address:0x7fffee8c6564 value:d
+  param: char address:0x7fffee8c6560 value:a
+  param: char address:0x7fffee8c655c value:e
+  End --void MiddleChar_PBR(char&, char, char, char)
+  param: char address:0x7fffee8c670b value:d
+  param: char address:0x7fffee8c6564 value:d
+  param: char address:0x7fffee8c6560 value:a
+  param: char address:0x7fffee8c655c value:e
+
+
+  Start -- void MiddleChar_PBR(char&, char, char, char)
+  param: char address:0x7fffee8c670b value:d
+  param: char address:0x7fffee8c6564 value:x
+  param: char address:0x7fffee8c6560 value:z
+  param: char address:0x7fffee8c655c value:t
+  End --void MiddleChar_PBR(char&, char, char, char)
+  param: char address:0x7fffee8c670b value:x
+  param: char address:0x7fffee8c6564 value:x
+  param: char address:0x7fffee8c6560 value:z
+  param: char address:0x7fffee8c655c value:t
+
+
+  Start -- double GetSum_PBV(double, double, double, double, double)
+  param: double address:0x7fffee8c65f8 value:2.3
+  param: double address:0x7fffee8c65f0 value:43.1
+  param: double address:0x7fffee8c65e8 value:32.5
+  param: double address:0x7fffee8c65e0 value:100.5
+  param: double address:0x7fffee8c65d8 value:1.1
+  End frame(1)--double GetSum_PBV(double, double, double, double, double) at line 108
+Return Value:179.5
+
+  Start -- double GetSum_PBV(double, double, double, double, double)
+  param: double address:0x7fffee8c65f8 value:47.9
+  param: double address:0x7fffee8c65f0 value:43.1
+  param: double address:0x7fffee8c65e8 value:123.5
+  param: double address:0x7fffee8c65e0 value:101.7
+  param: double address:0x7fffee8c65d8 value:1.5
+  End frame(1)--double GetSum_PBV(double, double, double, double, double) at line 108
+Return Value:317.7
+
+  Start -- double GetSum_PBV(double, double, double, double, double)
+  param: double address:0x7fffee8c65f8 value:3.4
+  param: double address:0x7fffee8c65f0 value:42.1
+  param: double address:0x7fffee8c65e8 value:343.4
+  param: double address:0x7fffee8c65e0 value:125.7
+  param: double address:0x7fffee8c65d8 value:2.7
+  End frame(1)--double GetSum_PBV(double, double, double, double, double) at line 108
+Return Value:517.3
+
+  Start -- void GetSum_PBR(double&, double, double, double, double, double)
+  param: double address:0x7fffee8c6700 value:517.3
+  param: double address:0x7fffee8c6560 value:12.1
+  param: double address:0x7fffee8c6558 value:51.1
+  param: double address:0x7fffee8c6550 value:62.1
+  param: double address:0x7fffee8c6548 value:34.6
+  param: double address:0x7fffee8c6540 value:643.2
+  End --void GetSum_PBR(double&, double, double, double, double, double)
+  param: double address:0x7fffee8c6700 value:803.1
+  param: double address:0x7fffee8c6560 value:12.1
+  param: double address:0x7fffee8c6558 value:51.1
+  param: double address:0x7fffee8c6550 value:62.1
+  param: double address:0x7fffee8c6548 value:34.6
+  param: double address:0x7fffee8c6540 value:643.2
+
+
+  Start -- void GetSum_PBR(double&, double, double, double, double, double)
+  param: double address:0x7fffee8c6700 value:803.1
+  param: double address:0x7fffee8c6560 value:1.3
+  param: double address:0x7fffee8c6558 value:54.6
+  param: double address:0x7fffee8c6550 value:63.7
+  param: double address:0x7fffee8c6548 value:39.9
+  param: double address:0x7fffee8c6540 value:6.2
+  End --void GetSum_PBR(double&, double, double, double, double, double)
+  param: double address:0x7fffee8c6700 value:165.7
+  param: double address:0x7fffee8c6560 value:1.3
+  param: double address:0x7fffee8c6558 value:54.6
+  param: double address:0x7fffee8c6550 value:63.7
+  param: double address:0x7fffee8c6548 value:39.9
+  param: double address:0x7fffee8c6540 value:6.2
+
+
+  Start -- void GetSum_PBR(double&, double, double, double, double, double)
+  param: double address:0x7fffee8c6700 value:165.7
+  param: double address:0x7fffee8c6560 value:2.1
+  param: double address:0x7fffee8c6558 value:5.1
+  param: double address:0x7fffee8c6550 value:69.7
+  param: double address:0x7fffee8c6548 value:45.6
+  param: double address:0x7fffee8c6540 value:69.8
+  End --void GetSum_PBR(double&, double, double, double, double, double)
+  param: double address:0x7fffee8c6700 value:192.3
+  param: double address:0x7fffee8c6560 value:2.1
+  param: double address:0x7fffee8c6558 value:5.1
+  param: double address:0x7fffee8c6550 value:69.7
+  param: double address:0x7fffee8c6548 value:45.6
+  param: double address:0x7fffee8c6540 value:69.8
+
+
+  Start -- void SortInAscending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:123.1
+  param: double address:0x7fffee8c66f0 value:32.4
+  param: double address:0x7fffee8c66e8 value:51.7
+  End --void SortInAscending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:32
+  param: double address:0x7fffee8c66f0 value:51
+  param: double address:0x7fffee8c66e8 value:123
+
+
+  Start -- void SortInAscending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:3
+  param: double address:0x7fffee8c66f0 value:2
+  param: double address:0x7fffee8c66e8 value:1
+  End --void SortInAscending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:1
+  param: double address:0x7fffee8c66f0 value:2
+  param: double address:0x7fffee8c66e8 value:3
+
+
+  Start -- void SortInAscending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:54.2
+  param: double address:0x7fffee8c66f0 value:65.1
+  param: double address:0x7fffee8c66e8 value:55.7
+  End --void SortInAscending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:54
+  param: double address:0x7fffee8c66f0 value:55
+  param: double address:0x7fffee8c66e8 value:65
+
+
+  Start -- void SortInDescending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:54.2
+  param: double address:0x7fffee8c66f0 value:57.3
+  param: double address:0x7fffee8c66e8 value:86.1
+  End --void SortInDescending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:86
+  param: double address:0x7fffee8c66f0 value:57
+  param: double address:0x7fffee8c66e8 value:54
+
+
+  Start -- void SortInDescending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:87.3
+  param: double address:0x7fffee8c66f0 value:74.2
+  param: double address:0x7fffee8c66e8 value:17.3
+  End --void SortInDescending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:87
+  param: double address:0x7fffee8c66f0 value:74
+  param: double address:0x7fffee8c66e8 value:17
+
+
+  Start -- void SortInDescending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:62.1
+  param: double address:0x7fffee8c66f0 value:15.7
+  param: double address:0x7fffee8c66e8 value:53.2
+  End --void SortInDescending(double&, double&, double&)
+  param: double address:0x7fffee8c66f8 value:62
+  param: double address:0x7fffee8c66f0 value:53
+  param: double address:0x7fffee8c66e8 value:15
+
+

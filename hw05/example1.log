@@ -1,0 +1,188 @@
+log file "example1.log" opened
+  Start -- static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 76
+Return Value:0
+
+  Start -- DynamicArray::DynamicArray(int)
+  param: int address:0x7ffda347b5d4 value:7
+  End --DynamicArray::DynamicArray(int)
+  param: int address:0x7ffda347b788 value:7
+
+
+  Start -- std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 43
+Return Value:capacity: 7
+object_count: 1
+data[0] value: 
+data[1] value: 
+data[2] value: 
+data[3] value: 
+data[4] value: 
+data[5] value: 
+data[6] value: 
+
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b7a0 value:Homer
+  param: int address:0x7ffda347b68c value:0
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 58
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b7b0 value:Marge
+  param: int address:0x7ffda347b68c value:1
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 58
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b7c0 value:Bart
+  param: int address:0x7ffda347b68c value:2
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 58
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b7d0 value:Lisa
+  param: int address:0x7ffda347b68c value:3
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 58
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b7e0 value:Maggie
+  param: int address:0x7ffda347b68c value:4
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 58
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b7f0 value:Apu
+  param: int address:0x7ffda347b68c value:5
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 58
+Return Value:true
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b800 value:Manjula
+  param: int address:0x7ffda347b68c value:6
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 58
+Return Value:true
+
+  Start -- std::string DynamicArray::ToString()
+  End frame(1)--std::string DynamicArray::ToString() at line 43
+Return Value:capacity: 7
+object_count: 1
+data[0] value: Homer
+data[1] value: Marge
+data[2] value: Bart
+data[3] value: Lisa
+data[4] value: Maggie
+data[5] value: Apu
+data[6] value: Manjula
+
+
+  Start -- static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 76
+Return Value:1
+
+  Start -- DynamicArray::DynamicArray(int)
+  param: int address:0x7ffda347b5d4 value:1
+  End --DynamicArray::DynamicArray(int)
+  param: int address:0x7ffda347b778 value:1
+
+
+  Start -- bool DynamicArray::SetValue(std::string, int)
+  param: std::string address:0x7ffda347b820 value:Otto
+  param: int address:0x7ffda347b68c value:3
+  End frame(1)--bool DynamicArray::SetValue(std::string, int) at line 53
+Return Value:false
+
+  Start -- static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 76
+Return Value:2
+
+  Start -- std::string CreateXML(DynamicArray&)
+  param: DynamicArray address:0x7ffda347b780 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::string CreateXML(DynamicArray&) at line 94
+Return Value:<DynamicArray>
+<capacity>7</capacity>
+<object_count>2</object_count>
+<data>
+  <value>Homer</value>
+  <value>Marge</value>
+  <value>Bart</value>
+  <value>Lisa</value>
+  <value>Maggie</value>
+  <value>Apu</value>
+  <value>Manjula</value>
+</data>
+</DynamicArray>
+
+
+  Start -- std::string CreateXML(DynamicArray&)
+  param: DynamicArray address:0x7ffda347b770 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::string CreateXML(DynamicArray&) at line 94
+Return Value:<DynamicArray>
+<capacity>1</capacity>
+<object_count>2</object_count>
+<data>
+  <value></value>
+</data>
+</DynamicArray>
+
+
+  Start -- DynamicArray::DynamicArray(DynamicArray&)
+  param: DynamicArray address:0x7ffda347b780 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  DynamicArray::DynamicArray(DynamicArray&) at line 24  :copying value at position 0 from object passed in to my array 
+  DynamicArray::DynamicArray(DynamicArray&) at line 24  :copying value at position 1 from object passed in to my array 
+  DynamicArray::DynamicArray(DynamicArray&) at line 24  :copying value at position 2 from object passed in to my array 
+  DynamicArray::DynamicArray(DynamicArray&) at line 24  :copying value at position 3 from object passed in to my array 
+  DynamicArray::DynamicArray(DynamicArray&) at line 24  :copying value at position 4 from object passed in to my array 
+  DynamicArray::DynamicArray(DynamicArray&) at line 24  :copying value at position 5 from object passed in to my array 
+  DynamicArray::DynamicArray(DynamicArray&) at line 24  :copying value at position 6 from object passed in to my array 
+  End --DynamicArray::DynamicArray(DynamicArray&)
+  param: DynamicArray address:0x7ffda347b780 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+
+
+  Start -- std::string CreateXML(DynamicArray&)
+  param: DynamicArray address:0x7ffda347b760 value:unknown type <DynamicArray>, cant display value try converting it to a string or overoad ostream << 
+
+  End frame(1)--std::string CreateXML(DynamicArray&) at line 94
+Return Value:<DynamicArray>
+<capacity>7</capacity>
+<object_count>3</object_count>
+<data>
+  <value>Homer</value>
+  <value>Marge</value>
+  <value>Bart</value>
+  <value>Lisa</value>
+  <value>Maggie</value>
+  <value>Apu</value>
+  <value>Manjula</value>
+</data>
+</DynamicArray>
+
+
+  Start -- static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 76
+Return Value:3
+
+  Start -- DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 65  :in destructor object_count=3 , data=0x22012a8 
+  End --DynamicArray::~DynamicArray()
+
+
+  Start -- DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 65  :in destructor object_count=2 , data=0x2201288 
+  End --DynamicArray::~DynamicArray()
+
+
+  Start -- DynamicArray::~DynamicArray()
+  DynamicArray::~DynamicArray() at line 65  :in destructor object_count=1 , data=0x2201048 
+  End --DynamicArray::~DynamicArray()
+
+
+  Start -- static int DynamicArray::GetObjectCount()
+  End frame(1)--static int DynamicArray::GetObjectCount() at line 76
+Return Value:0
+

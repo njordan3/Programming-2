@@ -1,0 +1,181 @@
+log file "main6.log" opened
+  Start -- Line::Line(int)
+  param: int address:0x7ffdb1b88504 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffdb1b88390 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffdb1b88390 value:0
+  End --Line::Line(int)
+  param: int address:0x7ffdb1b88504 value:0
+
+
+  Start -- Rectangle::Rectangle(double, double)
+  param: double address:0x7ffdb1b88680 value:0
+  param: double address:0x7ffdb1b88678 value:0
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88500 value:0
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88500 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffdb1b88500 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffdb1b88500 value:0
+  End --Rectangle::Rectangle(double, double)
+  param: double address:0x7ffdb1b88680 value:0
+  param: double address:0x7ffdb1b88678 value:0
+
+
+  Start -- Rectangular_Prism::Rectangular_Prism(double, double, double)
+  param: double address:0x7ffdb1b88810 value:0
+  param: double address:0x7ffdb1b88808 value:0
+  param: double address:0x7ffdb1b88800 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffdb1b88680 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffdb1b88680 value:0
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88680 value:0
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88680 value:0
+    Start -- void Rectangular_Prism::SetDepth(double)
+    param: double address:0x7ffdb1b88680 value:0
+    End --void Rectangular_Prism::SetDepth(double)
+    param: double address:0x7ffdb1b88680 value:0
+  End --Rectangular_Prism::Rectangular_Prism(double, double, double)
+  param: double address:0x7ffdb1b88810 value:0
+  param: double address:0x7ffdb1b88808 value:0
+  param: double address:0x7ffdb1b88800 value:0
+
+
+  Start -- std::string Rectangular_Prism::ToString()
+    Start -- double Rectangular_Prism::Volume()
+      Start -- double Rectangle::Area()
+      End frame(3)--double Rectangle::Area() at line 51
+Return Value:0
+
+    End frame(2)--double Rectangular_Prism::Volume() at line 60
+Return Value:0
+
+    Start -- double Rectangular_Prism::Area()
+    End frame(2)--double Rectangular_Prism::Area() at line 53
+Return Value:0
+
+  End frame(1)--std::string Rectangular_Prism::ToString() at line 36
+Return Value:Rectangular_Prism: 
+Length: 0
+Width: 0
+Depth: 0
+Area: 0
+Volume: 0
+
+
+  Start -- void Line::SetLength(double)
+  param: double address:0x7ffdb1b88810 value:5
+  End --void Line::SetLength(double)
+  param: double address:0x7ffdb1b88810 value:5
+
+
+  Start -- void Rectangle::SetWidth(double)
+  param: double address:0x7ffdb1b88810 value:7
+  End --void Rectangle::SetWidth(double)
+  param: double address:0x7ffdb1b88810 value:7
+
+
+  Start -- void Rectangular_Prism::SetDepth(double)
+  param: double address:0x7ffdb1b88810 value:8
+  End --void Rectangular_Prism::SetDepth(double)
+  param: double address:0x7ffdb1b88810 value:8
+
+
+  Start -- std::string Rectangular_Prism::ToString()
+    Start -- double Rectangular_Prism::Volume()
+      Start -- double Rectangle::Area()
+      End frame(3)--double Rectangle::Area() at line 51
+Return Value:35
+
+    End frame(2)--double Rectangular_Prism::Volume() at line 60
+Return Value:280
+
+    Start -- double Rectangular_Prism::Area()
+    End frame(2)--double Rectangular_Prism::Area() at line 53
+Return Value:262
+
+  End frame(1)--std::string Rectangular_Prism::ToString() at line 36
+Return Value:Rectangular_Prism: 
+Length: 5
+Width: 7
+Depth: 8
+Area: 262
+Volume: 280
+
+
+  Start -- Line::Line(int)
+  param: int address:0x7ffdb1b88504 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffdb1b88390 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffdb1b88390 value:0
+  End --Line::Line(int)
+  param: int address:0x7ffdb1b88504 value:0
+
+
+  Start -- Rectangle::Rectangle(double, double)
+  param: double address:0x7ffdb1b88680 value:0
+  param: double address:0x7ffdb1b88678 value:0
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88500 value:0
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88500 value:0
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffdb1b88500 value:0
+    End --void Line::SetLength(double)
+    param: double address:0x7ffdb1b88500 value:0
+  End --Rectangle::Rectangle(double, double)
+  param: double address:0x7ffdb1b88680 value:0
+  param: double address:0x7ffdb1b88678 value:0
+
+
+  Start -- Rectangular_Prism::Rectangular_Prism(double, double, double)
+  param: double address:0x7ffdb1b88810 value:6
+  param: double address:0x7ffdb1b88808 value:9
+  param: double address:0x7ffdb1b88800 value:5
+    Start -- void Line::SetLength(double)
+    param: double address:0x7ffdb1b88680 value:6
+    End --void Line::SetLength(double)
+    param: double address:0x7ffdb1b88680 value:6
+    Start -- void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88680 value:9
+    End --void Rectangle::SetWidth(double)
+    param: double address:0x7ffdb1b88680 value:9
+    Start -- void Rectangular_Prism::SetDepth(double)
+    param: double address:0x7ffdb1b88680 value:5
+    End --void Rectangular_Prism::SetDepth(double)
+    param: double address:0x7ffdb1b88680 value:5
+  End --Rectangular_Prism::Rectangular_Prism(double, double, double)
+  param: double address:0x7ffdb1b88810 value:6
+  param: double address:0x7ffdb1b88808 value:9
+  param: double address:0x7ffdb1b88800 value:5
+
+
+  Start -- std::string Rectangular_Prism::ToString()
+    Start -- double Rectangular_Prism::Volume()
+      Start -- double Rectangle::Area()
+      End frame(3)--double Rectangle::Area() at line 51
+Return Value:54
+
+    End frame(2)--double Rectangular_Prism::Volume() at line 60
+Return Value:270
+
+    Start -- double Rectangular_Prism::Area()
+    End frame(2)--double Rectangular_Prism::Area() at line 53
+Return Value:258
+
+  End frame(1)--std::string Rectangular_Prism::ToString() at line 36
+Return Value:Rectangular_Prism: 
+Length: 6
+Width: 9
+Depth: 5
+Area: 258
+Volume: 270
+
+
